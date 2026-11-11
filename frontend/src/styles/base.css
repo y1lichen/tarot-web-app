@@ -1,0 +1,60 @@
+
+/* =========================================================
+   AURUM · Tarot — black & gold prototype
+   ========================================================= */
+:root{
+  --bg:#060508;
+  --ink:#efe6d0;
+  --ink-dim:rgba(239,230,208,.66);
+  --ink-faint:rgba(239,230,208,.4);
+  --gold:#d4b36a;
+  --gold-hi:#f6e2a4;
+  --gold-lo:#8d6f32;
+  --line:rgba(212,179,106,.28);
+  --line-hi:rgba(246,226,164,.6);
+
+  --cw:clamp(128px, min(52vw, 31vh), 250px);   /* hero card width */
+  --ch:calc(var(--cw) * 1.4645);               /* card ratio = 721 : 1056 */
+  --ease:cubic-bezier(.22,1,.36,1);
+  --font:"Cormorant Garamond","Noto Serif TC","Songti TC","PMingLiU",serif;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+[hidden]{display:none!important}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);overflow:hidden;
+  font-family:var(--font);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:0;padding:0}
+button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:1px solid var(--gold-hi);outline-offset:3px}
+
+#app{
+  position:fixed;inset:0;overflow:hidden;
+  --H:100vh;
+  --hb:190px;          /* headline bottom */
+  --s-ask:.6;
+  --s:1; --dy:calc(var(--H)*.04);
+  --energy:0;
+  --sw:120px; --sh:calc(var(--sw)*1.4645); --sb:max(84px,10vh);
+  --sg:clamp(12px,2.6vw,32px);                          /* gap between the 3 slots */
+  --rw:calc((var(--sw)*3 + var(--sg)*2)*.8);           /* width of the slimmed-down card row */
+  --pw:min(600px,calc(100vw - var(--rw) - 96px));      /* reading panel width (desktop) */
+  background:
+    radial-gradient(70% 55% at 50% 46%, rgba(76,58,22,.34) 0%, rgba(30,22,10,.18) 45%, transparent 75%),
+    radial-gradient(120% 90% at 50% 120%, #14100a 0%, transparent 60%),
+    linear-gradient(180deg,#07060a 0%,#0b0907 100%);
+}
+#app[data-stage="landing"]{--s:1;--dy:calc(var(--H)*.04)}
+#app[data-stage="ask"]{--s:var(--s-ask);--dy:calc(var(--hb) + 10px + var(--ch)*var(--s-ask)/2 - var(--H)/2)}
+#app[data-stage="shuffle"]{--s:.9;--dy:calc(var(--H)*-.02)}
+#app[data-stage="spread"],#app[data-stage="reading"]{--s:.9;--dy:calc(var(--H)*-.02)}
+@media (max-width:700px){#app{--hb:176px}}
+@media (max-height:760px){#app{--hb:156px;--s-ask:.5}.hl[data-for="ask"] p{display:none}}
+
+canvas#fx{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
+.vignette{position:absolute;inset:0;pointer-events:none;z-index:2;
+  background:radial-gradient(120% 100% at 50% 50%,transparent 55%,rgba(0,0,0,.65) 100%)}
+
+/* ---------- decorative moon strip ---------- */
+.moons{position:absolute;left:50%;bottom:calc(env(safe-area-inset-bottom) + 4.5vh);width:min(520px,82vw);
+  transform:translateX(-50%);opacity:0;transition:opacity 1.2s;pointer-events:none;z-index:1}
+#app[data-stage="landing"] .moons{opacity:.55}
+.moons path.lit{fill:var(--gold)}
+.moons circle{fill:none;stroke:var(--gold);stroke-width:.5;opacity:.7}

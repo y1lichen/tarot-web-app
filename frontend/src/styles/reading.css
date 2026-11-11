@@ -1,0 +1,41 @@
+/* ---------- reading ---------- */
+.read{display:none;z-index:25}
+#app.done .read{display:block;
+  /* desktop: right-hand column, full height */
+  left:calc(50% + (var(--rw) + 40px - var(--pw))/2);right:auto;width:var(--pw);margin:0;
+  top:84px;bottom:0;overflow-y:auto;scrollbar-width:none;
+  padding:6px 4px max(24px,env(safe-area-inset-bottom));
+  -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 14px,#000 calc(100% - 22px),transparent);
+  mask-image:linear-gradient(180deg,transparent 0,#000 14px,#000 calc(100% - 22px),transparent)}
+.read::-webkit-scrollbar{display:none}
+.box{border:1px solid var(--line);border-radius:18px;padding:clamp(22px,3vw,34px) clamp(20px,3.4vw,38px);
+  background:linear-gradient(180deg,rgba(20,16,10,.82),rgba(9,8,7,.82));backdrop-filter:blur(6px);
+  box-shadow:0 0 60px rgba(212,179,106,.08)}
+.q-wrap{text-align:center}
+.q-tag{display:inline-block;font-size:11.5px;letter-spacing:.34em;margin-right:-.34em;color:var(--gold);margin-bottom:6px}
+.box .q{color:var(--gold-hi);letter-spacing:.08em;font-size:clamp(17px,1.8vw,21px);line-height:1.6;margin:0}
+.box .rule{height:1px;margin:20px auto;width:60%;background:linear-gradient(90deg,transparent,var(--gold-lo),transparent)}
+.sec{padding:2px 0 20px;margin-bottom:18px;border-bottom:1px solid rgba(212,179,106,.12)}
+.sec-h{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 14px;margin-bottom:8px}
+.sec-h .when{font-size:12.5px;letter-spacing:.3em;color:var(--gold);padding:3px 12px;border:1px solid var(--line);border-radius:999px;
+  background:rgba(212,179,106,.06);white-space:nowrap}
+.sec-h .cn{font-size:clamp(19px,2vw,23px);letter-spacing:.14em;color:var(--gold-hi);font-weight:600}
+.sec-h .en{font-size:12px;letter-spacing:.2em;color:var(--ink-faint);text-transform:uppercase}
+.sec p,.sum{margin:0;font-size:clamp(15px,1.5vw,16.5px);line-height:2;letter-spacing:.06em;color:var(--ink-dim);font-weight:300}
+.sum-box{border:1px solid var(--line-hi);border-radius:14px;padding:18px clamp(16px,2.4vw,24px);margin-top:4px;
+  background:radial-gradient(120% 140% at 50% 0%,rgba(212,179,106,.14),rgba(212,179,106,.03) 70%)}
+.sum-box .sum{color:var(--ink);font-weight:400}
+.box .note{margin:16px 0 0;font-size:11.5px;color:var(--ink-faint);letter-spacing:.1em;text-align:center}
+.box .acts{display:flex;justify-content:center;gap:10px;margin-top:22px;flex-wrap:wrap}
+
+/* narrow screens: cards shrink to a strip on top, the reading gets all the height below */
+@media (max-width:899px){
+  #app.done .slots{top:76px;transform:translateX(-50%) scale(.6)}
+  #app.done .slot-name,#app.done .slot-kw{display:none}
+  #app.done .slot-meta{top:calc(100% + 6px)}
+  #app.done .slot-label{font-size:15px}
+  #app.done .read{left:0;right:0;margin:0 auto;width:min(680px,calc(100% - 24px));
+    top:calc(76px + var(--sh)*.6 + 52px)}
+}
+.reveal-item{opacity:0;transform:translateY(12px)}
+.read.on.shown .reveal-item{animation:sgIn 1s var(--ease) forwards;animation-delay:calc(var(--i)*160ms + 300ms)}
