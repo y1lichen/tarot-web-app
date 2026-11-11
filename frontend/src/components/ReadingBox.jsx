@@ -1,11 +1,22 @@
 import { FRAMES, LABELS } from "../data/tarot.js";
 export default function ReadingBox({
+  reading,
   question,
   cards,
   children,
   onAgain,
   againLabel = "再問一個問題",
 }) {
+  const shownCards = reading
+    ? reading.cards.map((c) => ({
+        id: c.card.id,
+        zh: c.card.name_zh,
+        en: c.card.name_en,
+        position: c.position_label,
+        text: c.interpretation,
+        reversed: c.reversed,
+      }))
+    : cards;
   return (
     <div className="box">
       <div className="q-wrap">
@@ -15,14 +26,17 @@ export default function ReadingBox({
         </p>
       </div>
       <div className="rule" />
-      {cards.map((card, i) => (
-        <section key={card.n} className="sec">
+      {shownCards.map((card, i) => (
+        <section key={card.id || card.n} className="sec">
           <div className="sec-h">
-            <span className="when">{LABELS[i]}</span>
-            <span className="cn">{card.zh}</span>
+            <span className="when">{card.position || LABELS[i]}</span>
+            <span className="cn">
+              {card.zh}
+              {reading && (card.reversed ? " · 逆位" : " · 正位")}
+            </span>
             <span className="en">{card.en}</span>
           </div>
-          <p>{FRAMES[i](card.line)}</p>
+          <p>{reading ? card.text : FRAMES[i](card.line)}</p>
         </section>
       ))}
       <section className="sum-box">
@@ -30,13 +44,26 @@ export default function ReadingBox({
           <span className="when">綜合指引</span>
         </div>
         <p className="sum">
-          你的過去帶著「{cards[0].kw[0]}」的底色，此刻正處在「{cards[1].kw[0]}
-          」之中，而未來指向「{cards[2].kw[0]}」。
-          <br />
-          三張牌連起來看，是在提醒你：{cards[2].line}
+          {reading
+            ? reading.overall
+            : `你的過去帶著「${cards[0].kw[0]}」的底色，此刻正處在「${cards[1].kw[0]}」之中，而未來指向「${cards[2].kw[0]}」。${cards[2].line}`}
         </p>
       </section>
-      <p className="note">※ 此區為版面示意，正式解讀內容由後端／AI 串接帶入</p>
+      {reading && (
+        <section className="sec">
+          <div className="sec-h">
+            <span className="when">反思建議</span>
+          </div>
+          <p>{reading.advice}</p>
+        </section>
+      )}
+      <p className="note">
+        {reading
+          ? reading.mock
+            ? "目前為後端示範解讀，尚未使用 AI。"
+            : "此解讀由 AI 產生，供自我反思參考。"
+          : "這是舊版示範紀錄，未包含後端解讀。"}
+      </p>
       {children}
       <div className="acts">
         <button className="btn-gold" onClick={onAgain}>

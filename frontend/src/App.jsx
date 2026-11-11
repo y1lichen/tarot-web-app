@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { useTarot } from "./hooks/useTarot.js";
 import { useAccount } from "./hooks/useAccount.js";
 import { useViewport } from "./hooks/useViewport.js";
+import { useReading } from "./hooks/useReading.js";
 import Background from "./components/Background.jsx";
 import Header from "./components/Header.jsx";
 import Headline from "./components/Headline.jsx";
@@ -21,9 +22,11 @@ export default function App() {
   const slotWidth = Math.max(76, Math.min(width * 0.24, height * 0.17, 150));
   const { user, saveReading } = account;
   const { done, readingId, question, picks } = tarot;
+  const reading = useReading(done, question, picks);
   useEffect(() => {
-    if (done && user && readingId) saveReading(readingId, question, picks);
-  }, [done, user, readingId, question, picks, saveReading]);
+    if (done && reading.result && user && readingId)
+      saveReading(readingId, question, picks, reading.result);
+  }, [done, reading.result, user, readingId, question, picks, saveReading]);
   useEffect(() => {
     if (!toast) return;
     const timer = setTimeout(() => setToast(""), 2800);
@@ -66,37 +69,59 @@ export default function App() {
         )}
         {done && (
           <div className="panel read on shown">
-            <ReadingBox
-              question={question}
-              cards={picks}
-              onAgain={() => tarot.restart()}
-            >
-              <div className="save-slot">
-                {saved ? (
-                  <>
-                    <span className="saved">✦ 已存入你的紀錄</span>
-                    <button
-                      className="link"
-                      onClick={() => setModal("history")}
-                    >
-                      查看紀錄
-                    </button>
-                  </>
-                ) : (
-                  !user && (
+            {reading.loading && (
+              <div className="box" role="status">
+                <p>正在為你解讀牌陣，請稍候⋯</p>
+                <button className="btn-ghost" onClick={() => tarot.restart()}>
+                  重新提問
+                </button>
+              </div>
+            )}
+            {reading.error && (
+              <div className="box" role="alert">
+                <p>{reading.error}</p>
+                <button className="btn-gold" onClick={reading.retry}>
+                  重試解讀
+                </button>
+                <button className="btn-ghost" onClick={() => tarot.restart()}>
+                  重新提問
+                </button>
+              </div>
+            )}
+            {reading.result && (
+              <ReadingBox
+                reading={reading.result}
+                question={question}
+                cards={picks}
+                onAgain={() => tarot.restart()}
+              >
+                <div className="save-slot">
+                  {saved ? (
                     <>
-                      <span>登入後即可保存這次的占卜</span>
+                      <span className="saved">✦ 已存入你的紀錄</span>
                       <button
                         className="link"
-                        onClick={() => setModal("login")}
+                        onClick={() => setModal("history")}
                       >
-                        登入
+                        查看紀錄
                       </button>
                     </>
-                  )
-                )}
-              </div>
-            </ReadingBox>
+                  ) : (
+                    !user && (
+                      <>
+                        <span>登入後即可保存這次的占卜</span>
+                        <button
+                          className="link"
+                          onClick={() => setModal("login")}
+                        >
+                          登入
+                        </button>
+                      </>
+                    )
+                  )}
+                </div>
+              </ReadingBox>
+            )}
           </div>
         )}
       </div>

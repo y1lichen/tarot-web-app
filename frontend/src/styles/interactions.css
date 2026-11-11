@@ -6,3 +6,5 @@
 .shuffling .dcard{animation:riffle 1.4s ease-in-out infinite;animation-delay:calc(var(--card-index)*-70ms)}
 @keyframes riffle{0%,100%{translate:0 0;rotate:0deg}30%{translate:-65% -10%;rotate:-8deg}65%{translate:65% -14%;rotate:8deg}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.shuffling .dcard{animation:none}}
+
+.sec p,.sum{white-space:pre-wrap}

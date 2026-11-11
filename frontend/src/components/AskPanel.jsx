@@ -20,14 +20,14 @@ export default function AskPanel({ tarot }) {
           <input
             ref={input}
             type="text"
-            maxLength={80}
+            maxLength={200}
             value={tarot.question}
             onChange={(e) => tarot.setQuestion(e.target.value)}
             placeholder="在心中默念，然後寫下你的問題⋯"
             aria-label="你的問題"
             enterKeyHint="go"
           />
-          <span className="count">{tarot.question.length} / 80</span>
+          <span className="count">{tarot.question.length} / 200</span>
         </div>
         <div className="cat-title">不知道怎麼問？選一個方向</div>
         <div className="cats" role="group" aria-label="問題類型">
@@ -83,7 +83,7 @@ export default function AskPanel({ tarot }) {
             type="button"
             onClick={() => tarot.submit(true)}
           >
-            不想寫下來，我在心裡默念
+            不寫問題，取得一般性指引
           </button>
         </div>
       </form>

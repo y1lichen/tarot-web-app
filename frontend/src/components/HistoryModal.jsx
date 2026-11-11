@@ -15,8 +15,8 @@ const formatDate = (ts) =>
 export default function HistoryModal({ records, onClose, onAskAgain }) {
   const [selected, setSelected] = useState(null);
   const thumbnails = (record) =>
-    record.picks.map((n, i) => (
-      <MiniCard key={i} card={CARDS[n]} label={LABELS[i]} />
+    (record.cards || record.picks.map((n) => CARDS[n])).map((card, i) => (
+      <MiniCard key={i} card={card} label={LABELS[i]} />
     ));
   return (
     <Modal titleId="histTitle" wide onClose={onClose}>
@@ -39,7 +39,8 @@ export default function HistoryModal({ records, onClose, onAskAgain }) {
             <div className="rd-thumbs">{thumbnails(selected)}</div>
             <ReadingBox
               question={selected.q}
-              cards={selected.picks.map((n) => CARDS[n])}
+              reading={selected.reading}
+              cards={selected.cards || selected.picks.map((n) => CARDS[n])}
               onAgain={() => onAskAgain(selected.q)}
               againLabel="再問一次類似的問題"
             />

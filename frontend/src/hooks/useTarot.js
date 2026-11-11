@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from "react";
-import { CARDS, HOLD_MIN, HOLD_FULL } from "../data/tarot.js";
+import { HOLD_MIN, HOLD_FULL } from "../data/tarot.js";
+import { getCards } from "../api/tarot.js";
 const backStages = { ask: "landing", shuffle: "ask", spread: "shuffle" };
-function shuffledCards() {
-  const cards = [...CARDS];
+function shuffledCards(catalog) {
+  const cards = [...catalog];
   for (let i = cards.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [cards[i], cards[j]] = [cards[j], cards[i]];
@@ -10,6 +11,21 @@ function shuffledCards() {
   return cards;
 }
 export function useTarot() {
+  const [catalog, setCatalog] = useState([]);
+  const [cardsError, setCardsError] = useState("");
+  const [cardsAttempt, setCardsAttempt] = useState(0);
+  useEffect(() => {
+    const controller = new AbortController();
+    setCardsError("");
+    getCards(controller.signal)
+      .then((cards) => {
+        if (!controller.signal.aborted) setCatalog(cards);
+      })
+      .catch((error) => {
+        if (!controller.signal.aborted) setCardsError(error.message);
+      });
+    return () => controller.abort();
+  }, [cardsAttempt]);
   const [stage, setStage] = useState("landing");
   const [question, setQuestion] = useState("");
   const [category, setCategory] = useState(null);
@@ -58,9 +74,9 @@ export function useTarot() {
     selectionLock.current = false;
   }
   function finishShuffle() {
-    if (energy < HOLD_MIN) return;
+    if (energy < HOLD_MIN || catalog.length < 3) return;
     setHolding(false);
-    setDeck(shuffledCards());
+    setDeck(shuffledCards(catalog).slice(0, 22));
     setPicks([]);
     setFlipped([]);
     setReadingId(crypto.randomUUID());
@@ -80,6 +96,9 @@ export function useTarot() {
   }
   return {
     stage,
+    cardsError,
+    cardsLoading: catalog.length === 0 && !cardsError,
+    retryCards: () => setCardsAttempt((n) => n + 1),
     question,
     setQuestion,
     category,
@@ -91,7 +110,7 @@ export function useTarot() {
     done,
     deck,
     readingId,
-    ready: energy >= HOLD_MIN,
+    ready: energy >= HOLD_MIN && catalog.length >= 3,
     canBack: !!backStages[stage],
     start: () => setStage("ask"),
     submit: (skip = false) => {

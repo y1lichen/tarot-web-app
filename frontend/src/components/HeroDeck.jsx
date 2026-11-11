@@ -121,6 +121,15 @@ export default function HeroDeck({ tarot }) {
           >
             <i style={{ width: `${(tarot.energy / HOLD_FULL) * 100}%` }} />
           </div>
+          {tarot.cardsLoading && <p role="status">正在載入牌卡⋯</p>}
+          {tarot.cardsError && (
+            <div role="alert">
+              <p>{tarot.cardsError}</p>
+              <button className="btn-ghost" onClick={tarot.retryCards}>
+                重新載入牌卡
+              </button>
+            </div>
+          )}
           <button
             id="doneShuffle"
             className={`btn-gold ${tarot.ready ? "show" : ""}`}
