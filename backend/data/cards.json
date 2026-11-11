@@ -1,0 +1,1484 @@
+[
+  {
+    "id": "major-00",
+    "name_zh": "愚者",
+    "name_en": "The Fool",
+    "arcana": "major",
+    "suit": null,
+    "number": 0,
+    "upright": [
+      "新的開始",
+      "自由",
+      "冒險"
+    ],
+    "reversed": [
+      "魯莽",
+      "猶豫不前",
+      "缺乏計畫"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-01",
+    "name_zh": "魔術師",
+    "name_en": "The Magician",
+    "arcana": "major",
+    "suit": null,
+    "number": 1,
+    "upright": [
+      "行動力",
+      "資源整合",
+      "自信"
+    ],
+    "reversed": [
+      "能力未發揮",
+      "操弄",
+      "分心"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-02",
+    "name_zh": "女祭司",
+    "name_en": "The High Priestess",
+    "arcana": "major",
+    "suit": null,
+    "number": 2,
+    "upright": [
+      "直覺",
+      "內在智慧",
+      "沉靜觀察"
+    ],
+    "reversed": [
+      "忽略直覺",
+      "資訊不明",
+      "壓抑感受"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-03",
+    "name_zh": "皇后",
+    "name_en": "The Empress",
+    "arcana": "major",
+    "suit": null,
+    "number": 3,
+    "upright": [
+      "豐盛",
+      "照顧",
+      "創造力"
+    ],
+    "reversed": [
+      "過度依賴",
+      "創造受阻",
+      "忽略自己"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-04",
+    "name_zh": "皇帝",
+    "name_en": "The Emperor",
+    "arcana": "major",
+    "suit": null,
+    "number": 4,
+    "upright": [
+      "秩序",
+      "責任",
+      "掌控"
+    ],
+    "reversed": [
+      "過度控制",
+      "固執",
+      "缺乏紀律"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-05",
+    "name_zh": "教皇",
+    "name_en": "The Hierophant",
+    "arcana": "major",
+    "suit": null,
+    "number": 5,
+    "upright": [
+      "傳統",
+      "學習",
+      "指引"
+    ],
+    "reversed": [
+      "打破常規",
+      "質疑權威",
+      "教條化"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-06",
+    "name_zh": "戀人",
+    "name_en": "The Lovers",
+    "arcana": "major",
+    "suit": null,
+    "number": 6,
+    "upright": [
+      "關係",
+      "選擇",
+      "價值一致"
+    ],
+    "reversed": [
+      "關係失衡",
+      "猶豫的選擇",
+      "價值衝突"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-07",
+    "name_zh": "戰車",
+    "name_en": "The Chariot",
+    "arcana": "major",
+    "suit": null,
+    "number": 7,
+    "upright": [
+      "意志力",
+      "前進",
+      "克服阻礙"
+    ],
+    "reversed": [
+      "失去方向",
+      "衝動",
+      "受阻"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-08",
+    "name_zh": "力量",
+    "name_en": "Strength",
+    "arcana": "major",
+    "suit": null,
+    "number": 8,
+    "upright": [
+      "勇氣",
+      "耐心",
+      "溫柔的堅定"
+    ],
+    "reversed": [
+      "自我懷疑",
+      "失去耐心",
+      "情緒失控"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-09",
+    "name_zh": "隱者",
+    "name_en": "The Hermit",
+    "arcana": "major",
+    "suit": null,
+    "number": 9,
+    "upright": [
+      "獨處",
+      "反思",
+      "尋找答案"
+    ],
+    "reversed": [
+      "孤立",
+      "逃避",
+      "過度封閉"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-10",
+    "name_zh": "命運之輪",
+    "name_en": "Wheel of Fortune",
+    "arcana": "major",
+    "suit": null,
+    "number": 10,
+    "upright": [
+      "轉變",
+      "時機",
+      "循環"
+    ],
+    "reversed": [
+      "抗拒改變",
+      "時機未到",
+      "運勢低迷"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-11",
+    "name_zh": "正義",
+    "name_en": "Justice",
+    "arcana": "major",
+    "suit": null,
+    "number": 11,
+    "upright": [
+      "公平",
+      "因果",
+      "理性判斷"
+    ],
+    "reversed": [
+      "不公平",
+      "逃避責任",
+      "偏頗"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-12",
+    "name_zh": "吊人",
+    "name_en": "The Hanged Man",
+    "arcana": "major",
+    "suit": null,
+    "number": 12,
+    "upright": [
+      "換個角度",
+      "等待",
+      "放下"
+    ],
+    "reversed": [
+      "停滯",
+      "無謂的犧牲",
+      "拖延"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-13",
+    "name_zh": "死神",
+    "name_en": "Death",
+    "arcana": "major",
+    "suit": null,
+    "number": 13,
+    "upright": [
+      "結束",
+      "轉化",
+      "重新開始"
+    ],
+    "reversed": [
+      "抗拒結束",
+      "停滯不前",
+      "放不下"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-14",
+    "name_zh": "節制",
+    "name_en": "Temperance",
+    "arcana": "major",
+    "suit": null,
+    "number": 14,
+    "upright": [
+      "平衡",
+      "調和",
+      "耐心"
+    ],
+    "reversed": [
+      "失衡",
+      "過度",
+      "缺乏耐心"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-15",
+    "name_zh": "惡魔",
+    "name_en": "The Devil",
+    "arcana": "major",
+    "suit": null,
+    "number": 15,
+    "upright": [
+      "束縛",
+      "慾望",
+      "執著"
+    ],
+    "reversed": [
+      "掙脫束縛",
+      "覺察依賴",
+      "重獲自由"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-16",
+    "name_zh": "高塔",
+    "name_en": "The Tower",
+    "arcana": "major",
+    "suit": null,
+    "number": 16,
+    "upright": [
+      "突變",
+      "打破舊結構",
+      "覺醒"
+    ],
+    "reversed": [
+      "避開危機",
+      "延遲的改變",
+      "恐懼變動"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-17",
+    "name_zh": "星星",
+    "name_en": "The Star",
+    "arcana": "major",
+    "suit": null,
+    "number": 17,
+    "upright": [
+      "希望",
+      "療癒",
+      "信心"
+    ],
+    "reversed": [
+      "失去信心",
+      "期待落空",
+      "沮喪"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-18",
+    "name_zh": "月亮",
+    "name_en": "The Moon",
+    "arcana": "major",
+    "suit": null,
+    "number": 18,
+    "upright": [
+      "不安",
+      "潛意識",
+      "迷惘"
+    ],
+    "reversed": [
+      "釐清真相",
+      "走出迷惘",
+      "恐懼消退"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-19",
+    "name_zh": "太陽",
+    "name_en": "The Sun",
+    "arcana": "major",
+    "suit": null,
+    "number": 19,
+    "upright": [
+      "成功",
+      "活力",
+      "樂觀"
+    ],
+    "reversed": [
+      "過度樂觀",
+      "短暫低潮",
+      "延遲的成功"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-20",
+    "name_zh": "審判",
+    "name_en": "Judgement",
+    "arcana": "major",
+    "suit": null,
+    "number": 20,
+    "upright": [
+      "覺醒",
+      "反省",
+      "重新出發"
+    ],
+    "reversed": [
+      "自我批判",
+      "逃避反省",
+      "錯失機會"
+    ],
+    "image": null
+  },
+  {
+    "id": "major-21",
+    "name_zh": "世界",
+    "name_en": "The World",
+    "arcana": "major",
+    "suit": null,
+    "number": 21,
+    "upright": [
+      "完成",
+      "圓滿",
+      "整合"
+    ],
+    "reversed": [
+      "未完成",
+      "缺少收尾",
+      "停在原地"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-01",
+    "name_zh": "權杖王牌",
+    "name_en": "Ace of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 1,
+    "upright": [
+      "新的動力",
+      "靈感",
+      "開創"
+    ],
+    "reversed": [
+      "動力不足",
+      "延遲",
+      "方向不明"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-02",
+    "name_zh": "權杖二",
+    "name_en": "Two of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 2,
+    "upright": [
+      "規劃",
+      "抉擇",
+      "展望"
+    ],
+    "reversed": [
+      "害怕改變",
+      "計畫不周",
+      "猶豫"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-03",
+    "name_zh": "權杖三",
+    "name_en": "Three of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 3,
+    "upright": [
+      "拓展",
+      "遠見",
+      "等待成果"
+    ],
+    "reversed": [
+      "進展受阻",
+      "準備不足",
+      "失望"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-04",
+    "name_zh": "權杖四",
+    "name_en": "Four of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 4,
+    "upright": [
+      "慶祝",
+      "穩定",
+      "歸屬"
+    ],
+    "reversed": [
+      "不穩定",
+      "缺乏支持",
+      "過渡期"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-05",
+    "name_zh": "權杖五",
+    "name_en": "Five of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 5,
+    "upright": [
+      "競爭",
+      "衝突",
+      "意見分歧"
+    ],
+    "reversed": [
+      "避免衝突",
+      "內耗",
+      "和解"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-06",
+    "name_zh": "權杖六",
+    "name_en": "Six of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 6,
+    "upright": [
+      "勝利",
+      "肯定",
+      "自信"
+    ],
+    "reversed": [
+      "驕傲",
+      "不被肯定",
+      "失去信心"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-07",
+    "name_zh": "權杖七",
+    "name_en": "Seven of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 7,
+    "upright": [
+      "堅守立場",
+      "防衛",
+      "挑戰"
+    ],
+    "reversed": [
+      "疲於應付",
+      "放棄",
+      "壓力過大"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-08",
+    "name_zh": "權杖八",
+    "name_en": "Eight of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 8,
+    "upright": [
+      "快速進展",
+      "消息",
+      "行動"
+    ],
+    "reversed": [
+      "延誤",
+      "倉促",
+      "受阻"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-09",
+    "name_zh": "權杖九",
+    "name_en": "Nine of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 9,
+    "upright": [
+      "韌性",
+      "堅持",
+      "防備"
+    ],
+    "reversed": [
+      "疲憊",
+      "多疑",
+      "撐不下去"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-10",
+    "name_zh": "權杖十",
+    "name_en": "Ten of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 10,
+    "upright": [
+      "負擔",
+      "責任",
+      "壓力"
+    ],
+    "reversed": [
+      "卸下重擔",
+      "分工",
+      "過勞"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-11",
+    "name_zh": "權杖侍者",
+    "name_en": "Page of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 11,
+    "upright": [
+      "好奇",
+      "探索",
+      "新消息"
+    ],
+    "reversed": [
+      "三分鐘熱度",
+      "缺乏方向",
+      "壞消息"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-12",
+    "name_zh": "權杖騎士",
+    "name_en": "Knight of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 12,
+    "upright": [
+      "衝勁",
+      "冒險",
+      "熱情"
+    ],
+    "reversed": [
+      "衝動",
+      "急躁",
+      "半途而廢"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-13",
+    "name_zh": "權杖皇后",
+    "name_en": "Queen of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 13,
+    "upright": [
+      "自信",
+      "熱情",
+      "獨立"
+    ],
+    "reversed": [
+      "嫉妒",
+      "要求過高",
+      "缺乏自信"
+    ],
+    "image": null
+  },
+  {
+    "id": "wands-14",
+    "name_zh": "權杖國王",
+    "name_en": "King of Wands",
+    "arcana": "minor",
+    "suit": "wands",
+    "number": 14,
+    "upright": [
+      "領導",
+      "願景",
+      "決斷"
+    ],
+    "reversed": [
+      "專斷",
+      "期望過高",
+      "衝動決策"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-01",
+    "name_zh": "聖杯王牌",
+    "name_en": "Ace of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 1,
+    "upright": [
+      "新的感情",
+      "情感流動",
+      "直覺"
+    ],
+    "reversed": [
+      "情感封閉",
+      "失落",
+      "壓抑"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-02",
+    "name_zh": "聖杯二",
+    "name_en": "Two of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 2,
+    "upright": [
+      "連結",
+      "互相吸引",
+      "合作"
+    ],
+    "reversed": [
+      "關係失衡",
+      "溝通不良",
+      "分離"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-03",
+    "name_zh": "聖杯三",
+    "name_en": "Three of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 3,
+    "upright": [
+      "友誼",
+      "慶祝",
+      "社群"
+    ],
+    "reversed": [
+      "過度放縱",
+      "人際摩擦",
+      "孤立"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-04",
+    "name_zh": "聖杯四",
+    "name_en": "Four of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 4,
+    "upright": [
+      "倦怠",
+      "冷淡",
+      "重新評估"
+    ],
+    "reversed": [
+      "重新投入",
+      "看見機會",
+      "走出低潮"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-05",
+    "name_zh": "聖杯五",
+    "name_en": "Five of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 5,
+    "upright": [
+      "失落",
+      "遺憾",
+      "悲傷"
+    ],
+    "reversed": [
+      "接受",
+      "釋懷",
+      "向前看"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-06",
+    "name_zh": "聖杯六",
+    "name_en": "Six of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 6,
+    "upright": [
+      "回憶",
+      "純真",
+      "懷舊"
+    ],
+    "reversed": [
+      "困在過去",
+      "放下回憶",
+      "成長"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-07",
+    "name_zh": "聖杯七",
+    "name_en": "Seven of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 7,
+    "upright": [
+      "幻想",
+      "選擇過多",
+      "誘惑"
+    ],
+    "reversed": [
+      "看清現實",
+      "做出決定",
+      "專注"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-08",
+    "name_zh": "聖杯八",
+    "name_en": "Eight of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 8,
+    "upright": [
+      "離開",
+      "尋找意義",
+      "放下"
+    ],
+    "reversed": [
+      "不敢離開",
+      "迷惘",
+      "逃避"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-09",
+    "name_zh": "聖杯九",
+    "name_en": "Nine of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 9,
+    "upright": [
+      "滿足",
+      "願望實現",
+      "感恩"
+    ],
+    "reversed": [
+      "不滿足",
+      "物質主義",
+      "期望落空"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-10",
+    "name_zh": "聖杯十",
+    "name_en": "Ten of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 10,
+    "upright": [
+      "和諧",
+      "家庭",
+      "幸福"
+    ],
+    "reversed": [
+      "家庭失和",
+      "期待落差",
+      "疏離"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-11",
+    "name_zh": "聖杯侍者",
+    "name_en": "Page of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 11,
+    "upright": [
+      "溫柔",
+      "直覺訊息",
+      "好奇"
+    ],
+    "reversed": [
+      "情緒化",
+      "不成熟",
+      "逃避感受"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-12",
+    "name_zh": "聖杯騎士",
+    "name_en": "Knight of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 12,
+    "upright": [
+      "浪漫",
+      "追求",
+      "理想"
+    ],
+    "reversed": [
+      "不切實際",
+      "情緒起伏",
+      "失望"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-13",
+    "name_zh": "聖杯皇后",
+    "name_en": "Queen of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 13,
+    "upright": [
+      "同理心",
+      "照顧",
+      "情感成熟"
+    ],
+    "reversed": [
+      "情緒耗竭",
+      "過度依賴",
+      "界線不清"
+    ],
+    "image": null
+  },
+  {
+    "id": "cups-14",
+    "name_zh": "聖杯國王",
+    "name_en": "King of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 14,
+    "upright": [
+      "情緒穩定",
+      "包容",
+      "智慧"
+    ],
+    "reversed": [
+      "情緒壓抑",
+      "操控",
+      "冷漠"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-01",
+    "name_zh": "寶劍王牌",
+    "name_en": "Ace of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 1,
+    "upright": [
+      "清晰",
+      "突破",
+      "真相"
+    ],
+    "reversed": [
+      "混亂",
+      "誤判",
+      "溝通不良"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-02",
+    "name_zh": "寶劍二",
+    "name_en": "Two of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 2,
+    "upright": [
+      "僵局",
+      "兩難",
+      "逃避"
+    ],
+    "reversed": [
+      "做出決定",
+      "資訊過多",
+      "焦慮"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-03",
+    "name_zh": "寶劍三",
+    "name_en": "Three of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 3,
+    "upright": [
+      "心碎",
+      "痛苦",
+      "失落"
+    ],
+    "reversed": [
+      "療傷",
+      "釋放",
+      "原諒"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-04",
+    "name_zh": "寶劍四",
+    "name_en": "Four of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 4,
+    "upright": [
+      "休息",
+      "沉澱",
+      "恢復"
+    ],
+    "reversed": [
+      "焦躁",
+      "倦怠",
+      "重新出發"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-05",
+    "name_zh": "寶劍五",
+    "name_en": "Five of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 5,
+    "upright": [
+      "爭執",
+      "輸贏",
+      "代價"
+    ],
+    "reversed": [
+      "和解",
+      "放下爭執",
+      "後悔"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-06",
+    "name_zh": "寶劍六",
+    "name_en": "Six of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 6,
+    "upright": [
+      "過渡",
+      "離開困境",
+      "前進"
+    ],
+    "reversed": [
+      "困在原地",
+      "未解決的問題",
+      "抗拒"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-07",
+    "name_zh": "寶劍七",
+    "name_en": "Seven of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 7,
+    "upright": [
+      "策略",
+      "隱瞞",
+      "獨自行動"
+    ],
+    "reversed": [
+      "坦白",
+      "被揭穿",
+      "改變做法"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-08",
+    "name_zh": "寶劍八",
+    "name_en": "Eight of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 8,
+    "upright": [
+      "受困",
+      "自我限制",
+      "無力感"
+    ],
+    "reversed": [
+      "解脫",
+      "新觀點",
+      "重獲力量"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-09",
+    "name_zh": "寶劍九",
+    "name_en": "Nine of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 9,
+    "upright": [
+      "焦慮",
+      "失眠",
+      "擔憂"
+    ],
+    "reversed": [
+      "走出焦慮",
+      "求助",
+      "釋放壓力"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-10",
+    "name_zh": "寶劍十",
+    "name_en": "Ten of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 10,
+    "upright": [
+      "結束",
+      "低谷",
+      "觸底"
+    ],
+    "reversed": [
+      "復原",
+      "最壞已過",
+      "重新站起"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-11",
+    "name_zh": "寶劍侍者",
+    "name_en": "Page of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 11,
+    "upright": [
+      "好奇",
+      "觀察",
+      "新想法"
+    ],
+    "reversed": [
+      "八卦",
+      "衝動發言",
+      "防衛"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-12",
+    "name_zh": "寶劍騎士",
+    "name_en": "Knight of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 12,
+    "upright": [
+      "果斷",
+      "直接",
+      "快速行動"
+    ],
+    "reversed": [
+      "魯莽",
+      "衝突",
+      "欠缺思考"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-13",
+    "name_zh": "寶劍皇后",
+    "name_en": "Queen of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 13,
+    "upright": [
+      "理性",
+      "獨立",
+      "清楚表達"
+    ],
+    "reversed": [
+      "冷酷",
+      "尖銳",
+      "過度批判"
+    ],
+    "image": null
+  },
+  {
+    "id": "swords-14",
+    "name_zh": "寶劍國王",
+    "name_en": "King of Swords",
+    "arcana": "minor",
+    "suit": "swords",
+    "number": 14,
+    "upright": [
+      "權威",
+      "邏輯",
+      "公正"
+    ],
+    "reversed": [
+      "濫用權力",
+      "冷漠",
+      "操控"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-01",
+    "name_zh": "錢幣王牌",
+    "name_en": "Ace of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 1,
+    "upright": [
+      "新機會",
+      "財務起點",
+      "穩定基礎"
+    ],
+    "reversed": [
+      "錯失機會",
+      "計畫不周",
+      "資源不足"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-02",
+    "name_zh": "錢幣二",
+    "name_en": "Two of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 2,
+    "upright": [
+      "平衡",
+      "調度",
+      "適應"
+    ],
+    "reversed": [
+      "失衡",
+      "分身乏術",
+      "財務混亂"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-03",
+    "name_zh": "錢幣三",
+    "name_en": "Three of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 3,
+    "upright": [
+      "合作",
+      "技能",
+      "團隊"
+    ],
+    "reversed": [
+      "合作不順",
+      "品質不佳",
+      "缺乏認可"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-04",
+    "name_zh": "錢幣四",
+    "name_en": "Four of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 4,
+    "upright": [
+      "保守",
+      "安全感",
+      "掌控"
+    ],
+    "reversed": [
+      "吝嗇",
+      "過度控制",
+      "害怕失去"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-05",
+    "name_zh": "錢幣五",
+    "name_en": "Five of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 5,
+    "upright": [
+      "困難",
+      "匱乏",
+      "孤立"
+    ],
+    "reversed": [
+      "走出困境",
+      "接受幫助",
+      "復原"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-06",
+    "name_zh": "錢幣六",
+    "name_en": "Six of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 6,
+    "upright": [
+      "分享",
+      "給予",
+      "互惠"
+    ],
+    "reversed": [
+      "不對等",
+      "債務",
+      "條件交換"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-07",
+    "name_zh": "錢幣七",
+    "name_en": "Seven of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 7,
+    "upright": [
+      "耐心",
+      "長期投資",
+      "評估"
+    ],
+    "reversed": [
+      "缺乏耐心",
+      "投入未見成果",
+      "焦慮"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-08",
+    "name_zh": "錢幣八",
+    "name_en": "Eight of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 8,
+    "upright": [
+      "專注",
+      "練習",
+      "精進"
+    ],
+    "reversed": [
+      "敷衍",
+      "缺乏熱情",
+      "完美主義"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-09",
+    "name_zh": "錢幣九",
+    "name_en": "Nine of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 9,
+    "upright": [
+      "自足",
+      "獨立",
+      "成果"
+    ],
+    "reversed": [
+      "過度依賴",
+      "財務不穩",
+      "表面成功"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-10",
+    "name_zh": "錢幣十",
+    "name_en": "Ten of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 10,
+    "upright": [
+      "傳承",
+      "長期穩定",
+      "家庭"
+    ],
+    "reversed": [
+      "財務糾紛",
+      "家庭壓力",
+      "不穩定"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-11",
+    "name_zh": "錢幣侍者",
+    "name_en": "Page of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 11,
+    "upright": [
+      "學習",
+      "新計畫",
+      "務實"
+    ],
+    "reversed": [
+      "缺乏進展",
+      "拖延",
+      "不切實際"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-12",
+    "name_zh": "錢幣騎士",
+    "name_en": "Knight of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 12,
+    "upright": [
+      "穩定",
+      "勤奮",
+      "按部就班"
+    ],
+    "reversed": [
+      "停滯",
+      "過度保守",
+      "乏味"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-13",
+    "name_zh": "錢幣皇后",
+    "name_en": "Queen of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 13,
+    "upright": [
+      "照顧",
+      "務實",
+      "資源充足"
+    ],
+    "reversed": [
+      "失衡",
+      "過度操勞",
+      "忽略自己"
+    ],
+    "image": null
+  },
+  {
+    "id": "pentacles-14",
+    "name_zh": "錢幣國王",
+    "name_en": "King of Pentacles",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "number": 14,
+    "upright": [
+      "成就",
+      "富足",
+      "可靠"
+    ],
+    "reversed": [
+      "物質主義",
+      "固執",
+      "財務風險"
+    ],
+    "image": null
+  }
+]
