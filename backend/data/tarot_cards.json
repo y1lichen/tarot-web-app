@@ -1,0 +1,3174 @@
+{
+  "meta": {
+    "name": "Tarot Anytime 牌義資料",
+    "version": "1.0.0",
+    "language": "zh-TW",
+    "system": "Rider–Waite–Smith（偉特塔羅）",
+    "numbering_note": "依偉特體系編號：力量為 8、正義為 11。",
+    "card_count": 78,
+    "updated": "2026-11-07",
+    "notes": "牌義依通行的偉特體系牌義整理並以白話改寫；astrology／element 為黃金黎明體系的對應，僅供參考。"
+  },
+  "suits": {
+    "wands": {
+      "name": {
+        "zh": "權杖",
+        "en": "Wands"
+      },
+      "element": "火",
+      "domain": "熱情、行動力、創造力、企圖心與事業動能"
+    },
+    "cups": {
+      "name": {
+        "zh": "聖杯",
+        "en": "Cups"
+      },
+      "element": "水",
+      "domain": "情感、人際關係、直覺與內心感受"
+    },
+    "swords": {
+      "name": {
+        "zh": "寶劍",
+        "en": "Swords"
+      },
+      "element": "風",
+      "domain": "思考、溝通、判斷、衝突與真相"
+    },
+    "pentacles": {
+      "name": {
+        "zh": "錢幣",
+        "en": "Pentacles"
+      },
+      "element": "土",
+      "domain": "金錢、工作、身體健康與現實層面的穩定"
+    }
+  },
+  "court_ranks": {
+    "page": "侍者：學習者、新消息、事情的萌芽階段",
+    "knight": "騎士：行動、推進、該元素能量的積極展現",
+    "queen": "皇后：內化與滋養，以成熟、包容的方式運用該元素",
+    "king": "國王：掌控與領導，以權威、外放的方式運用該元素"
+  },
+  "cards": [
+    {
+      "id": "major-00",
+      "name": {
+        "zh": "愚者",
+        "en": "The Fool"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 0,
+      "rank": null,
+      "element": "風",
+      "astrology": "天王星",
+      "image": "cards/major-00.jpg",
+      "symbolism": "站在懸崖邊的年輕旅人，手持白玫瑰與行囊，身旁有小狗相伴，象徵純真、自由與未知的起點。",
+      "upright": {
+        "keywords": [
+          "新開始",
+          "冒險",
+          "自由",
+          "天真",
+          "信任直覺"
+        ],
+        "meaning": "代表一段新旅程的開端，帶著開放與好奇心踏出第一步，不被過去的經驗束縛。",
+        "love": "關係中充滿新鮮感，或可能出現意外的新相遇，適合以輕鬆的心態面對。",
+        "career": "適合嘗試新領域、新工作或新計畫，願意承擔未知帶來的可能性。",
+        "reflection": "如果不害怕失敗，你最想嘗試的是什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "魯莽",
+          "猶豫不前",
+          "缺乏計畫",
+          "逃避責任"
+        ],
+        "meaning": "可能因衝動而忽略風險，或因害怕未知而遲遲不敢開始。",
+        "love": "關係中可能缺乏承諾或過於隨性，需要留意彼此的期待是否一致。",
+        "career": "計畫不夠周全就貿然行動，或因過度保守而錯過機會。",
+        "reflection": "你目前的猶豫，是出於謹慎，還是出於害怕？"
+      }
+    },
+    {
+      "id": "major-01",
+      "name": {
+        "zh": "魔術師",
+        "en": "The Magician"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 1,
+      "rank": null,
+      "element": "風",
+      "astrology": "水星",
+      "image": "cards/major-01.jpg",
+      "symbolism": "桌上擺著代表四元素的器物，一手指天、一手指地，象徵將想法化為現實的能力。",
+      "upright": {
+        "keywords": [
+          "創造力",
+          "行動力",
+          "資源整合",
+          "自信",
+          "溝通"
+        ],
+        "meaning": "你已具備實現目標所需的資源與能力，關鍵在於主動將想法付諸行動。",
+        "love": "適合主動表達心意，良好的溝通能讓關係往前推進。",
+        "career": "能力與時機到位，適合提出企劃、展開新專案或展現專業。",
+        "reflection": "你手上已經擁有哪些可以運用的資源？"
+      },
+      "reversed": {
+        "keywords": [
+          "能力未發揮",
+          "操弄",
+          "欺瞞",
+          "分心"
+        ],
+        "meaning": "才能被浪費或用錯方向，也需要留意言詞包裝下的不實之處。",
+        "love": "留意關係中言行不一致或刻意營造的形象。",
+        "career": "計畫流於空談，或資源分散導致成果有限；也需提防誇大的承諾。",
+        "reflection": "你說出口的計畫，有多少已經真正開始執行？"
+      }
+    },
+    {
+      "id": "major-02",
+      "name": {
+        "zh": "女祭司",
+        "en": "The High Priestess"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 2,
+      "rank": null,
+      "element": "水",
+      "astrology": "月亮",
+      "image": "cards/major-02.jpg",
+      "symbolism": "坐在黑白雙柱之間、手持經卷的女性，身後帷幕遮住深處，象徵直覺與隱藏的知識。",
+      "upright": {
+        "keywords": [
+          "直覺",
+          "內在智慧",
+          "沉靜",
+          "潛意識",
+          "等待"
+        ],
+        "meaning": "答案可能不在外界，而在你的內心；此時適合沉澱與觀察，而非急於行動。",
+        "love": "關係中有尚未說出口的感受，需要用心感受，而不是急著要答案。",
+        "career": "先蒐集資訊、靜觀其變，相信自己的專業判斷。",
+        "reflection": "如果安靜下來傾聽內心，你的直覺告訴你什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "忽視直覺",
+          "秘密",
+          "情緒壓抑",
+          "資訊不明"
+        ],
+        "meaning": "可能忽略了內心的聲音，或有尚未揭露的資訊正在影響判斷。",
+        "love": "彼此之間可能存在隱瞞或疏離，情緒沒有被好好表達。",
+        "career": "資訊不透明，或判斷過於依賴他人意見，需要重新釐清事實。",
+        "reflection": "有什麼是你其實知道，卻選擇不去面對的？"
+      }
+    },
+    {
+      "id": "major-03",
+      "name": {
+        "zh": "皇后",
+        "en": "The Empress"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 3,
+      "rank": null,
+      "element": "土",
+      "astrology": "金星",
+      "image": "cards/major-03.jpg",
+      "symbolism": "坐在豐饒麥田中的女性，身旁有金星符號，象徵孕育、滋養與豐盛。",
+      "upright": {
+        "keywords": [
+          "豐盛",
+          "滋養",
+          "創造",
+          "感性",
+          "自我照顧"
+        ],
+        "meaning": "象徵成長與豐收的能量，適合用溫柔與耐心培育重要的人事物。",
+        "love": "關係溫暖穩定、互相照顧，也可能代表感情的進一步發展。",
+        "career": "創意與成果逐漸成形，努力開始有回報。",
+        "reflection": "你最近是否有好好照顧自己的需要？"
+      },
+      "reversed": {
+        "keywords": [
+          "過度付出",
+          "依賴",
+          "停滯",
+          "忽略自我"
+        ],
+        "meaning": "可能因過度照顧他人而忽略自己，或創造力暫時受阻。",
+        "love": "付出與接受失衡，或在關係中過度依附對方。",
+        "career": "進度停滯、缺乏靈感，或投入大量心力卻未被看見。",
+        "reflection": "你的付出中，有多少是出於期待回報？"
+      }
+    },
+    {
+      "id": "major-04",
+      "name": {
+        "zh": "皇帝",
+        "en": "The Emperor"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 4,
+      "rank": null,
+      "element": "火",
+      "astrology": "牡羊座",
+      "image": "cards/major-04.jpg",
+      "symbolism": "坐在石製王座上、手持權杖的統治者，背後是堅硬的山脈，象徵秩序、結構與權威。",
+      "upright": {
+        "keywords": [
+          "穩定",
+          "結構",
+          "權威",
+          "紀律",
+          "責任"
+        ],
+        "meaning": "需要以理性、規劃與紀律建立穩固的基礎，並為自己的選擇負責。",
+        "love": "關係重視承諾與穩定，自己或對方可能扮演較主導的角色。",
+        "career": "適合制定計畫、建立制度，展現領導力與執行力。",
+        "reflection": "你可以為目前的狀況建立什麼樣的規則或結構？"
+      },
+      "reversed": {
+        "keywords": [
+          "控制欲",
+          "僵化",
+          "專制",
+          "缺乏紀律"
+        ],
+        "meaning": "可能過度控制或固執己見，也可能代表秩序崩解、缺乏方向。",
+        "love": "關係中可能出現權力不對等，或一方過於強勢。",
+        "career": "與主管或制度產生衝突，或管理方式過於僵化。",
+        "reflection": "你想掌控的，是事情本身，還是不確定帶來的不安？"
+      }
+    },
+    {
+      "id": "major-05",
+      "name": {
+        "zh": "教皇",
+        "en": "The Hierophant"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 5,
+      "rank": null,
+      "element": "土",
+      "astrology": "金牛座",
+      "image": "cards/major-05.jpg",
+      "symbolism": "宗教導師坐在兩根柱子之間，下方有兩名信徒與交叉的鑰匙，象徵傳統、教導與信念體系。",
+      "upright": {
+        "keywords": [
+          "傳統",
+          "學習",
+          "規範",
+          "指引",
+          "群體價值"
+        ],
+        "meaning": "遵循既有規範或向有經驗的人請教，能帶來穩定的指引。",
+        "love": "重視承諾與傳統形式的關係，可能與家庭期待或正式交往有關。",
+        "career": "適合進修、學習專業知識，或在組織體制內穩健發展。",
+        "reflection": "你可以向誰請教，以獲得更成熟的觀點？"
+      },
+      "reversed": {
+        "keywords": [
+          "打破常規",
+          "質疑權威",
+          "教條",
+          "不合群"
+        ],
+        "meaning": "對既有規範感到束縛，想用自己的方式行事；也可能是被教條限制。",
+        "love": "關係不符合他人期待，或雙方價值觀出現落差。",
+        "career": "對制度感到不滿，或需要跳脫傳統做法尋找新路。",
+        "reflection": "你遵循的規則，是你真心認同的嗎？"
+      }
+    },
+    {
+      "id": "major-06",
+      "name": {
+        "zh": "戀人",
+        "en": "The Lovers"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 6,
+      "rank": null,
+      "element": "風",
+      "astrology": "雙子座",
+      "image": "cards/major-06.jpg",
+      "symbolism": "天使在上方祝福一對男女，兩人身後分別是生命之樹與知識之樹，象徵連結與選擇。",
+      "upright": {
+        "keywords": [
+          "愛與連結",
+          "選擇",
+          "價值一致",
+          "和諧",
+          "承諾"
+        ],
+        "meaning": "代表深刻的連結，也代表需要依照自己的價值觀做出重要選擇。",
+        "love": "雙方心意相通、吸引力強，關係可能更進一步。",
+        "career": "面臨重要抉擇，或與合作夥伴建立良好的互信關係。",
+        "reflection": "這個選擇是否符合你真正重視的價值？"
+      },
+      "reversed": {
+        "keywords": [
+          "失衡",
+          "價值衝突",
+          "猶豫不決",
+          "關係不和"
+        ],
+        "meaning": "內心與行為不一致，或在選擇中搖擺不定，關係中可能出現分歧。",
+        "love": "溝通不良、彼此期待不同，或面臨關係中的誘惑與考驗。",
+        "career": "合作關係出現摩擦，或因難以抉擇而延誤時機。",
+        "reflection": "是什麼讓你難以做出選擇？"
+      }
+    },
+    {
+      "id": "major-07",
+      "name": {
+        "zh": "戰車",
+        "en": "The Chariot"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 7,
+      "rank": null,
+      "element": "水",
+      "astrology": "巨蟹座",
+      "image": "cards/major-07.jpg",
+      "symbolism": "戰士駕著由一黑一白人面獅身獸拉動的戰車，象徵以意志力駕馭對立的力量向前邁進。",
+      "upright": {
+        "keywords": [
+          "意志力",
+          "前進",
+          "勝利",
+          "自律",
+          "掌控方向"
+        ],
+        "meaning": "憑藉決心與專注克服阻礙，朝著目標堅定前進。",
+        "love": "積極主動爭取，或雙方共同克服困難讓關係向前。",
+        "career": "目標明確、行動力強，有機會在競爭中脫穎而出。",
+        "reflection": "你的目標是什麼？你願意為它投入多少專注？"
+      },
+      "reversed": {
+        "keywords": [
+          "失控",
+          "方向不明",
+          "受阻",
+          "急躁"
+        ],
+        "meaning": "力量分散或方向不明確，越急於推進越容易失去掌控。",
+        "love": "雙方步調不一致，或因好勝而產生衝突。",
+        "career": "計畫受阻、進度延誤，需要重新確認方向與優先順序。",
+        "reflection": "你是否同時被太多方向拉扯？"
+      }
+    },
+    {
+      "id": "major-08",
+      "name": {
+        "zh": "力量",
+        "en": "Strength"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 8,
+      "rank": null,
+      "element": "火",
+      "astrology": "獅子座",
+      "image": "cards/major-08.jpg",
+      "symbolism": "女性溫柔地撫摸獅子，頭上有無限符號，象徵以柔克剛的內在力量。",
+      "upright": {
+        "keywords": [
+          "勇氣",
+          "耐心",
+          "溫柔的堅定",
+          "自制",
+          "同理"
+        ],
+        "meaning": "真正的力量來自內在的勇氣與耐心，以溫和而堅定的方式面對困難。",
+        "love": "以包容與理解經營關係，能化解衝突與不安。",
+        "career": "以耐心與穩定的態度處理壓力，逐步贏得他人信任。",
+        "reflection": "你可以用什麼溫和而堅定的方式面對眼前的挑戰？"
+      },
+      "reversed": {
+        "keywords": [
+          "自我懷疑",
+          "缺乏自信",
+          "情緒失控",
+          "軟弱"
+        ],
+        "meaning": "可能被不安或情緒左右，暫時失去面對困難的信心。",
+        "love": "不安全感影響關係，或長期壓抑情緒導致爆發。",
+        "career": "對自己的能力缺乏信心，或在壓力下失去冷靜。",
+        "reflection": "你是否低估了自己的能力？"
+      }
+    },
+    {
+      "id": "major-09",
+      "name": {
+        "zh": "隱者",
+        "en": "The Hermit"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 9,
+      "rank": null,
+      "element": "土",
+      "astrology": "處女座",
+      "image": "cards/major-09.jpg",
+      "symbolism": "老者獨自站在山頂，提著內有星光的燈籠，象徵自我探索與內在指引。",
+      "upright": {
+        "keywords": [
+          "內省",
+          "獨處",
+          "尋找答案",
+          "智慧",
+          "沉澱"
+        ],
+        "meaning": "適合暫時退開人群，透過獨處與思考找到屬於自己的答案。",
+        "love": "需要個人空間整理感受，或關係進入較安靜的階段。",
+        "career": "適合專注研究、精進專業，或重新思考職涯方向。",
+        "reflection": "在沒有他人意見的情況下，你自己怎麼想？"
+      },
+      "reversed": {
+        "keywords": [
+          "孤立",
+          "封閉",
+          "逃避",
+          "迷失方向"
+        ],
+        "meaning": "獨處可能變成逃避與孤立，或過度封閉而聽不見外界的聲音。",
+        "love": "刻意疏遠他人，或在關係中感到孤單。",
+        "career": "閉門造車、缺乏交流，或對方向感到迷惘。",
+        "reflection": "你的獨處是在充電，還是在逃避？"
+      }
+    },
+    {
+      "id": "major-10",
+      "name": {
+        "zh": "命運之輪",
+        "en": "Wheel of Fortune"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 10,
+      "rank": null,
+      "element": "火",
+      "astrology": "木星",
+      "image": "cards/major-10.jpg",
+      "symbolism": "轉動的巨輪四周環繞著四個生物與各種符號，象徵循環、變化與時機。",
+      "upright": {
+        "keywords": [
+          "轉變",
+          "時機",
+          "循環",
+          "轉機",
+          "命運"
+        ],
+        "meaning": "情勢正在轉變，新的機會或轉折點可能出現，適合順勢而為。",
+        "love": "關係出現新的發展或意外的緣分。",
+        "career": "可能迎來轉機、新機會或環境變動。",
+        "reflection": "面對正在發生的變化，你能做好哪些準備？"
+      },
+      "reversed": {
+        "keywords": [
+          "逆境",
+          "時機未到",
+          "抗拒改變",
+          "反覆"
+        ],
+        "meaning": "事情暫時不如預期，或陷入重複的模式；抗拒變化反而更辛苦。",
+        "love": "關係陷入反覆的循環，或時機尚未成熟。",
+        "career": "進展受外在因素影響而延遲，需要耐心等待時機。",
+        "reflection": "你是否一直在重複某種相同的模式？"
+      }
+    },
+    {
+      "id": "major-11",
+      "name": {
+        "zh": "正義",
+        "en": "Justice"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 11,
+      "rank": null,
+      "element": "風",
+      "astrology": "天秤座",
+      "image": "cards/major-11.jpg",
+      "symbolism": "手持天秤與寶劍的審判者端坐於兩柱之間，象徵公平、真相與因果。",
+      "upright": {
+        "keywords": [
+          "公平",
+          "真相",
+          "因果",
+          "理性",
+          "責任"
+        ],
+        "meaning": "以客觀理性的態度做判斷，所做的選擇將帶來相應的結果。",
+        "love": "關係中重視平等與誠實，雙方的付出較為平衡。",
+        "career": "能獲得公正的評價，合約或規章相關事務有清楚的結果。",
+        "reflection": "如果站在客觀第三者的角度，你會怎麼看這件事？"
+      },
+      "reversed": {
+        "keywords": [
+          "不公",
+          "偏見",
+          "逃避責任",
+          "失衡"
+        ],
+        "meaning": "可能感到不公平，或判斷受偏見影響，也可能在逃避應承擔的責任。",
+        "love": "付出不對等或缺乏誠實，讓關係失去平衡。",
+        "career": "評價不公或決策失準，需要留意契約與規則細節。",
+        "reflection": "在這件事中，你需要承擔的部分是什麼？"
+      }
+    },
+    {
+      "id": "major-12",
+      "name": {
+        "zh": "倒吊人",
+        "en": "The Hanged Man"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 12,
+      "rank": null,
+      "element": "水",
+      "astrology": "海王星",
+      "image": "cards/major-12.jpg",
+      "symbolism": "倒吊於樹上卻神情平靜的人，頭部散發光芒，象徵換個角度看見新的領悟。",
+      "upright": {
+        "keywords": [
+          "暫停",
+          "換位思考",
+          "放下",
+          "犧牲",
+          "新視角"
+        ],
+        "meaning": "事情暫時停滯，但這是轉換觀點的機會；放下執著反而能看清局勢。",
+        "love": "關係處於等待期，需要從對方的角度理解彼此。",
+        "career": "進度暫緩，適合重新評估策略，而不是硬碰硬。",
+        "reflection": "如果換個角度看，這件事會有什麼不同？"
+      },
+      "reversed": {
+        "keywords": [
+          "拖延",
+          "無謂的犧牲",
+          "固執",
+          "停滯不前"
+        ],
+        "meaning": "遲遲無法做出決定，或做出沒有意義的犧牲，讓情況持續停滯。",
+        "love": "單方面付出或委屈求全，卻沒有讓關係變好。",
+        "career": "拖延造成損失，或堅持已經無效的做法。",
+        "reflection": "你正在等待的，真的會到來嗎？"
+      }
+    },
+    {
+      "id": "major-13",
+      "name": {
+        "zh": "死神",
+        "en": "Death"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 13,
+      "rank": null,
+      "element": "水",
+      "astrology": "天蠍座",
+      "image": "cards/major-13.jpg",
+      "symbolism": "騎著白馬的骷髏騎士，遠方有初升的太陽，象徵結束與重生，而非字面上的死亡。",
+      "upright": {
+        "keywords": [
+          "結束",
+          "轉化",
+          "告別",
+          "重生",
+          "放手"
+        ],
+        "meaning": "某個階段即將結束，放下舊有的事物，才能迎接新的開始。",
+        "love": "關係將有重大轉變，可能是告別舊的相處模式，或一段關係的終點。",
+        "career": "結束舊工作或舊方法，為新的發展騰出空間。",
+        "reflection": "有什麼是你已經準備好要放下的？"
+      },
+      "reversed": {
+        "keywords": [
+          "抗拒改變",
+          "停滯",
+          "緩慢轉變",
+          "執著"
+        ],
+        "meaning": "害怕結束而緊抓不放，讓轉變變得更緩慢或更痛苦。",
+        "love": "難以放下過去的關係，或已不適合的相處模式。",
+        "career": "明知需要改變卻遲遲不行動，陷入停滯。",
+        "reflection": "你緊抓不放的，是否早已不再適合你？"
+      }
+    },
+    {
+      "id": "major-14",
+      "name": {
+        "zh": "節制",
+        "en": "Temperance"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 14,
+      "rank": null,
+      "element": "火",
+      "astrology": "射手座",
+      "image": "cards/major-14.jpg",
+      "symbolism": "天使一腳踩在水中、一腳踏在岸上，在兩個杯子之間倒水，象徵調和與平衡。",
+      "upright": {
+        "keywords": [
+          "平衡",
+          "調和",
+          "耐心",
+          "適度",
+          "整合"
+        ],
+        "meaning": "以耐心與適度的態度調和不同的力量，讓事情穩定地發展。",
+        "love": "關係和諧，雙方能彼此包容與調整。",
+        "career": "適合協調合作、穩健推進，避免走極端。",
+        "reflection": "你的生活中，有哪些部分需要重新取得平衡？"
+      },
+      "reversed": {
+        "keywords": [
+          "失衡",
+          "過度",
+          "急躁",
+          "不協調"
+        ],
+        "meaning": "生活或情緒失去平衡，可能某方面過度或不足。",
+        "love": "雙方步調不一致，或有一方的需求被忽視。",
+        "career": "工作與生活失衡，或團隊溝通協調不良。",
+        "reflection": "你是否在某件事上投入過多或過少？"
+      }
+    },
+    {
+      "id": "major-15",
+      "name": {
+        "zh": "惡魔",
+        "en": "The Devil"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 15,
+      "rank": null,
+      "element": "土",
+      "astrology": "摩羯座",
+      "image": "cards/major-15.jpg",
+      "symbolism": "惡魔坐在台座上，下方一對男女被鬆鬆地鎖著，象徵自我設限的束縛與慾望。",
+      "upright": {
+        "keywords": [
+          "束縛",
+          "執著",
+          "慾望",
+          "依賴",
+          "誘惑"
+        ],
+        "meaning": "可能被某種慾望、習慣或關係綁住，而這份束縛其實並非無法掙脫。",
+        "love": "強烈的吸引或依附，也可能是不健康的佔有與依賴。",
+        "career": "為了物質或安全感而困在不喜歡的環境中。",
+        "reflection": "是什麼讓你覺得自己無法離開？"
+      },
+      "reversed": {
+        "keywords": [
+          "掙脫",
+          "覺察",
+          "釋放",
+          "重拾自主"
+        ],
+        "meaning": "開始意識到束縛的存在，並逐漸找回自主權。",
+        "love": "從不健康的關係模式中覺醒，或試圖擺脫依賴。",
+        "career": "決定擺脫壓迫的環境或壞習慣，重新掌握方向。",
+        "reflection": "擺脫這份束縛後，你想過怎樣的生活？"
+      }
+    },
+    {
+      "id": "major-16",
+      "name": {
+        "zh": "高塔",
+        "en": "The Tower"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 16,
+      "rank": null,
+      "element": "火",
+      "astrology": "火星",
+      "image": "cards/major-16.jpg",
+      "symbolism": "被閃電擊中的高塔，塔頂王冠掉落，人們從塔上墜下，象徵突如其來的劇變與舊結構的崩解。",
+      "upright": {
+        "keywords": [
+          "劇變",
+          "突發事件",
+          "崩解",
+          "覺醒",
+          "真相揭露"
+        ],
+        "meaning": "突如其來的變化打破原有狀態，雖然震撼，卻也揭露了需要面對的真相。",
+        "love": "關係可能經歷衝擊、爭執或真相浮現。",
+        "career": "計畫或環境突然變動，迫使你重新調整方向。",
+        "reflection": "這場變動揭露了哪些過去被忽略的問題？"
+      },
+      "reversed": {
+        "keywords": [
+          "避免劇變",
+          "延遲的變動",
+          "恐懼改變",
+          "內在動盪"
+        ],
+        "meaning": "試圖避免變動，但問題只是被延後；也可能是內在正在經歷劇烈轉變。",
+        "love": "壓抑問題以維持表面和平，但矛盾仍然存在。",
+        "career": "勉強撐住即將崩解的局面，或預感變動卻遲遲不面對。",
+        "reflection": "你是否在用力維持一個已經不穩固的狀態？"
+      }
+    },
+    {
+      "id": "major-17",
+      "name": {
+        "zh": "星星",
+        "en": "The Star"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 17,
+      "rank": null,
+      "element": "風",
+      "astrology": "水瓶座",
+      "image": "cards/major-17.jpg",
+      "symbolism": "女子在星空下將水倒入池中與大地，象徵希望、療癒與信念。",
+      "upright": {
+        "keywords": [
+          "希望",
+          "療癒",
+          "靈感",
+          "信心",
+          "平靜"
+        ],
+        "meaning": "經歷困難後迎來療癒與希望，對未來重新產生信心。",
+        "love": "關係中有療癒與真誠的連結，或對新感情懷抱期待。",
+        "career": "靈感湧現、前景光明，適合朝理想邁進。",
+        "reflection": "什麼事情能讓你重新燃起希望？"
+      },
+      "reversed": {
+        "keywords": [
+          "失望",
+          "缺乏信心",
+          "迷惘",
+          "悲觀"
+        ],
+        "meaning": "暫時失去信心或希望，覺得努力看不到方向。",
+        "love": "對關係感到失望，或對愛情缺乏期待。",
+        "career": "缺乏動力與靈感，對未來感到迷惘。",
+        "reflection": "你是否對自己太過嚴苛？"
+      }
+    },
+    {
+      "id": "major-18",
+      "name": {
+        "zh": "月亮",
+        "en": "The Moon"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 18,
+      "rank": null,
+      "element": "水",
+      "astrology": "雙魚座",
+      "image": "cards/major-18.jpg",
+      "symbolism": "月光下的小路通往遠方，兩旁有狗與狼，水中爬出龍蝦，象徵不安、幻象與潛意識。",
+      "upright": {
+        "keywords": [
+          "不安",
+          "幻象",
+          "潛意識",
+          "模糊",
+          "直覺"
+        ],
+        "meaning": "情況尚未明朗，容易被恐懼或想像影響判斷，需要分辨事實與感受。",
+        "love": "關係中有猜疑、不確定或尚未說清楚的部分。",
+        "career": "資訊不明確，需小心誤會或被誤導。",
+        "reflection": "你的擔憂中，有多少是事實，多少是想像？"
+      },
+      "reversed": {
+        "keywords": [
+          "釐清",
+          "恐懼消散",
+          "真相浮現",
+          "混亂減輕"
+        ],
+        "meaning": "迷霧逐漸散去，原本的困惑或誤會開始得到釐清。",
+        "love": "誤會解開，或終於能面對內心真正的感受。",
+        "career": "情勢逐漸明朗，能做出較清楚的判斷。",
+        "reflection": "現在逐漸清楚的事情，帶給你什麼新的理解？"
+      }
+    },
+    {
+      "id": "major-19",
+      "name": {
+        "zh": "太陽",
+        "en": "The Sun"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 19,
+      "rank": null,
+      "element": "火",
+      "astrology": "太陽",
+      "image": "cards/major-19.jpg",
+      "symbolism": "孩子騎著白馬沐浴在燦爛陽光下，身後有向日葵，象徵喜悅、活力與成功。",
+      "upright": {
+        "keywords": [
+          "喜悅",
+          "成功",
+          "活力",
+          "樂觀",
+          "坦誠"
+        ],
+        "meaning": "充滿正面能量的時期，事情順利發展，適合自信地展現自己。",
+        "love": "關係溫暖快樂、坦誠相待。",
+        "career": "努力獲得肯定，成果明顯，前景樂觀。",
+        "reflection": "你可以如何分享或延續現在的好能量？"
+      },
+      "reversed": {
+        "keywords": [
+          "暫時低落",
+          "過度樂觀",
+          "延遲的成功",
+          "缺乏熱情"
+        ],
+        "meaning": "好事可能延遲到來，或熱情暫時減退；也需留意過度樂觀而忽略細節。",
+        "love": "關係中的快樂被日常瑣事沖淡。",
+        "career": "成果不如預期，或對前景過於樂觀。",
+        "reflection": "有什麼小事能讓你重新感到開心？"
+      }
+    },
+    {
+      "id": "major-20",
+      "name": {
+        "zh": "審判",
+        "en": "Judgement"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 20,
+      "rank": null,
+      "element": "火",
+      "astrology": "冥王星",
+      "image": "cards/major-20.jpg",
+      "symbolism": "天使吹響號角，人們從棺木中起身回應，象徵覺醒、反省與新的召喚。",
+      "upright": {
+        "keywords": [
+          "覺醒",
+          "反省",
+          "重生",
+          "召喚",
+          "評估"
+        ],
+        "meaning": "回顧過去並做出總結，聽從內心的召喚迎向新的階段。",
+        "love": "重新審視關係，可能是和解、復合或做出關鍵決定。",
+        "career": "迎來評價或關鍵抉擇，可能找到真正想走的方向。",
+        "reflection": "回顧過去，你學到了什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "自我懷疑",
+          "逃避反省",
+          "遲疑",
+          "自我批判"
+        ],
+        "meaning": "不願面對過去的課題，或過度自我批判而無法前進。",
+        "love": "對過去的關係耿耿於懷，難以放下或原諒。",
+        "career": "錯失重新出發的機會，或對自己的決定缺乏信心。",
+        "reflection": "你是否對過去的自己過於嚴厲？"
+      }
+    },
+    {
+      "id": "major-21",
+      "name": {
+        "zh": "世界",
+        "en": "The World"
+      },
+      "arcana": "major",
+      "suit": null,
+      "number": 21,
+      "rank": null,
+      "element": "土",
+      "astrology": "土星",
+      "image": "cards/major-21.jpg",
+      "symbolism": "舞者在月桂花環中央舞動，四角有四個生物，象徵完成、圓滿與整合。",
+      "upright": {
+        "keywords": [
+          "完成",
+          "圓滿",
+          "成就",
+          "整合",
+          "新循環"
+        ],
+        "meaning": "一個階段圓滿完成，努力獲得成果，同時準備迎接下一段旅程。",
+        "love": "關係穩定圓滿，或達成重要的里程碑。",
+        "career": "專案完成、目標達成，可能有更廣闊的發展。",
+        "reflection": "完成這個階段後，你希望下一步走向哪裡？"
+      },
+      "reversed": {
+        "keywords": [
+          "未完成",
+          "缺少收尾",
+          "停滯",
+          "延遲"
+        ],
+        "meaning": "事情接近完成卻缺少最後一步，或難以結束某個階段。",
+        "love": "關係中仍有未解決的課題。",
+        "career": "專案收尾困難，或目標延遲達成。",
+        "reflection": "還差哪一步，能讓這件事真正完成？"
+      }
+    },
+    {
+      "id": "wands-ace",
+      "name": {
+        "zh": "權杖王牌",
+        "en": "Ace of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 1,
+      "rank": "ace",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-ace.jpg",
+      "symbolism": "雲中伸出的手握著正在發芽的權杖，象徵新的熱情與創造力。",
+      "upright": {
+        "keywords": [
+          "新動力",
+          "靈感",
+          "熱情",
+          "機會",
+          "開創"
+        ],
+        "meaning": "新的靈感或熱情萌芽，是展開行動的好時機。",
+        "love": "新的吸引力出現，或關係中重新燃起熱情。",
+        "career": "新計畫或新機會出現，充滿開創的動力。",
+        "reflection": "什麼事情能讓你感到熱血沸騰？"
+      },
+      "reversed": {
+        "keywords": [
+          "延遲",
+          "缺乏動力",
+          "熱情消退",
+          "方向不明"
+        ],
+        "meaning": "想做卻提不起勁，或靈感一閃即逝，未能落實。",
+        "love": "熱情減退，或關係遲遲沒有進展。",
+        "career": "計畫延宕、缺乏動力，或尚未找到方向。",
+        "reflection": "是什麼在消耗你的熱情？"
+      }
+    },
+    {
+      "id": "wands-02",
+      "name": {
+        "zh": "權杖二",
+        "en": "Two of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 2,
+      "rank": "pip",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-02.jpg",
+      "symbolism": "男子手持地球儀站在城堡上眺望遠方，象徵規劃未來與擴展視野。",
+      "upright": {
+        "keywords": [
+          "規劃",
+          "遠見",
+          "抉擇",
+          "擴展",
+          "準備"
+        ],
+        "meaning": "正在規劃未來，考慮是否跨出舒適圈追求更大的目標。",
+        "love": "思考關係的未來，或在不同選擇間衡量。",
+        "career": "適合擬定長期計畫，評估拓展的可能性。",
+        "reflection": "你想像中的未來是什麼樣子？"
+      },
+      "reversed": {
+        "keywords": [
+          "害怕未知",
+          "計畫不周",
+          "猶豫",
+          "受限"
+        ],
+        "meaning": "因害怕改變而停留原地，或計畫缺乏實際步驟。",
+        "love": "對關係的未來感到不確定，不敢做決定。",
+        "career": "規劃停留在紙上，或因猶豫而錯失擴展機會。",
+        "reflection": "舒適圈帶給你的是安全感，還是限制？"
+      }
+    },
+    {
+      "id": "wands-03",
+      "name": {
+        "zh": "權杖三",
+        "en": "Three of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 3,
+      "rank": "pip",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-03.jpg",
+      "symbolism": "男子背對觀者，望向海上航行的船隻，象徵等待成果與拓展視野。",
+      "upright": {
+        "keywords": [
+          "拓展",
+          "遠景",
+          "等待成果",
+          "合作",
+          "進展"
+        ],
+        "meaning": "前期努力開始展現成果，視野擴大，前方有更多可能性。",
+        "love": "關係逐步發展，或遠距離關係有所進展。",
+        "career": "業務拓展或與外部合作，計畫開始有回報。",
+        "reflection": "你已經播下的種子，有哪些正在發芽？"
+      },
+      "reversed": {
+        "keywords": [
+          "延遲",
+          "阻礙",
+          "眼光受限",
+          "期待落空"
+        ],
+        "meaning": "進度不如預期，或計畫遇到意料之外的阻礙。",
+        "love": "關係進展緩慢，或對未來的期待與現實有落差。",
+        "career": "合作或拓展受阻，需要調整預期與策略。",
+        "reflection": "你的期待是否需要調整？"
+      }
+    },
+    {
+      "id": "wands-04",
+      "name": {
+        "zh": "權杖四",
+        "en": "Four of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 4,
+      "rank": "pip",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-04.jpg",
+      "symbolism": "四根權杖上架著花環，人們在城堡前歡慶，象徵慶祝、穩定與歸屬。",
+      "upright": {
+        "keywords": [
+          "慶祝",
+          "和諧",
+          "歸屬",
+          "里程碑",
+          "安定"
+        ],
+        "meaning": "迎來值得慶祝的階段性成果，帶來安定與歸屬感。",
+        "love": "關係穩定和諧，可能有同居、訂婚等喜事。",
+        "career": "達成階段目標，團隊氣氛融洽。",
+        "reflection": "有哪些成果值得你好好慶祝？"
+      },
+      "reversed": {
+        "keywords": [
+          "不穩定",
+          "缺乏歸屬",
+          "過渡期",
+          "喜悅延遲"
+        ],
+        "meaning": "安定感暫時不足，或期待中的喜事延後。",
+        "love": "關係中缺乏安全感，或與家庭期待產生摩擦。",
+        "career": "團隊不和諧，或成果未被慶祝與肯定。",
+        "reflection": "什麼能讓你感到真正的歸屬？"
+      }
+    },
+    {
+      "id": "wands-05",
+      "name": {
+        "zh": "權杖五",
+        "en": "Five of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 5,
+      "rank": "pip",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-05.jpg",
+      "symbolism": "五個年輕人揮舞權杖互相較勁，象徵競爭、衝突與意見分歧。",
+      "upright": {
+        "keywords": [
+          "競爭",
+          "衝突",
+          "意見分歧",
+          "較勁",
+          "挑戰"
+        ],
+        "meaning": "處於競爭或意見不合的狀態，雖然混亂，卻也能激發成長。",
+        "love": "雙方小爭執不斷，或面臨感情中的競爭者。",
+        "career": "職場競爭激烈，或團隊意見分歧需要整合。",
+        "reflection": "這場衝突真正在爭的是什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "避免衝突",
+          "化解爭執",
+          "內耗",
+          "壓抑意見"
+        ],
+        "meaning": "衝突逐漸平息，或為了避免爭執而壓抑真正的想法。",
+        "love": "試圖和解，但也需留意是否只是暫時忍讓。",
+        "career": "團隊開始找到共識，或內部消耗仍在持續。",
+        "reflection": "你是否為了和平而選擇沉默？"
+      }
+    },
+    {
+      "id": "wands-06",
+      "name": {
+        "zh": "權杖六",
+        "en": "Six of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 6,
+      "rank": "pip",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-06.jpg",
+      "symbolism": "頭戴桂冠的騎士在群眾簇擁下凱旋而歸，象徵勝利與公眾肯定。",
+      "upright": {
+        "keywords": [
+          "勝利",
+          "肯定",
+          "成功",
+          "自信",
+          "榮耀"
+        ],
+        "meaning": "努力獲得認可，成果被看見，帶來自信與成就感。",
+        "love": "關係順利，或在感情中獲得對方的肯定。",
+        "career": "表現獲得讚賞，可能有升遷或得獎等好消息。",
+        "reflection": "你如何看待別人給予的肯定？"
+      },
+      "reversed": {
+        "keywords": [
+          "缺乏認可",
+          "自我懷疑",
+          "驕傲",
+          "失利"
+        ],
+        "meaning": "努力未被看見，或過度在意他人評價；也需留意驕傲自滿。",
+        "love": "感覺在關係中不被重視。",
+        "career": "成果被忽視，或成功後鬆懈導致失利。",
+        "reflection": "如果沒有掌聲，你還會想做這件事嗎？"
+      }
+    },
+    {
+      "id": "wands-07",
+      "name": {
+        "zh": "權杖七",
+        "en": "Seven of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 7,
+      "rank": "pip",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-07.jpg",
+      "symbolism": "站在高處的人持權杖抵擋下方伸來的六根權杖，象徵堅守立場與防衛。",
+      "upright": {
+        "keywords": [
+          "堅守立場",
+          "防衛",
+          "勇氣",
+          "捍衛",
+          "毅力"
+        ],
+        "meaning": "面對挑戰與壓力時堅持自己的立場，捍衛重要的價值。",
+        "love": "為關係挺身而出，或需要面對外界的質疑。",
+        "career": "面臨競爭壓力，需要堅持專業與信念。",
+        "reflection": "什麼是你絕對不願妥協的？"
+      },
+      "reversed": {
+        "keywords": [
+          "不堪負荷",
+          "放棄",
+          "防衛過度",
+          "退縮"
+        ],
+        "meaning": "承受過多壓力而想放棄，或對他人過度防備。",
+        "love": "在關係中過度防衛，難以敞開心胸。",
+        "career": "疲於應付各方壓力，或在壓力下失去立場。",
+        "reflection": "你是在保護自己，還是在推開別人？"
+      }
+    },
+    {
+      "id": "wands-08",
+      "name": {
+        "zh": "權杖八",
+        "en": "Eight of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 8,
+      "rank": "pip",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-08.jpg",
+      "symbolism": "八根權杖在空中疾速飛行，象徵快速進展與訊息傳遞。",
+      "upright": {
+        "keywords": [
+          "快速進展",
+          "訊息",
+          "行動",
+          "旅行",
+          "動能"
+        ],
+        "meaning": "事情快速推進，訊息與機會接連到來，適合把握時機。",
+        "love": "關係迅速發展，或收到來自對方的消息。",
+        "career": "專案進度加快，可能有出差或重要訊息。",
+        "reflection": "當事情加速時，你準備好跟上了嗎？"
+      },
+      "reversed": {
+        "keywords": [
+          "延遲",
+          "混亂",
+          "操之過急",
+          "溝通受阻"
+        ],
+        "meaning": "進度受阻或過於倉促，訊息傳遞可能出錯。",
+        "love": "聯繫中斷，或關係進展太快讓人不安。",
+        "career": "計畫延宕、溝通混亂，需要放慢腳步確認細節。",
+        "reflection": "你是否太急於看到結果？"
+      }
+    },
+    {
+      "id": "wands-09",
+      "name": {
+        "zh": "權杖九",
+        "en": "Nine of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 9,
+      "rank": "pip",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-09.jpg",
+      "symbolism": "頭部受傷的人倚著權杖警戒，身後立著八根權杖，象徵韌性與最後的堅持。",
+      "upright": {
+        "keywords": [
+          "韌性",
+          "堅持",
+          "警戒",
+          "接近終點",
+          "毅力"
+        ],
+        "meaning": "雖然疲憊，但已接近終點，堅持下去就能突破。",
+        "love": "經歷考驗後仍堅守關係，但也帶著些許防備。",
+        "career": "歷經挑戰仍持續努力，成果即將到來。",
+        "reflection": "是什麼支持你走到現在？"
+      },
+      "reversed": {
+        "keywords": [
+          "疲憊",
+          "防衛過度",
+          "懷疑",
+          "想放棄"
+        ],
+        "meaning": "長期壓力讓人身心俱疲，過度警戒也可能讓你錯失信任他人的機會。",
+        "love": "過去的傷害讓你難以信任新的關係。",
+        "career": "倦怠感浮現，需要休息與支援。",
+        "reflection": "你是否需要尋求他人的幫助？"
+      }
+    },
+    {
+      "id": "wands-10",
+      "name": {
+        "zh": "權杖十",
+        "en": "Ten of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 10,
+      "rank": "pip",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-10.jpg",
+      "symbolism": "男子吃力地扛著十根權杖走向城鎮，象徵沉重的負擔與責任。",
+      "upright": {
+        "keywords": [
+          "負擔",
+          "責任",
+          "壓力",
+          "過勞",
+          "承擔"
+        ],
+        "meaning": "承擔了過多責任，雖然目標在望，但負荷沉重。",
+        "love": "在關係中承擔過多，或感情變成一種壓力。",
+        "career": "工作量過大，需要學習分工與委派。",
+        "reflection": "有哪些責任其實可以放下或分擔？"
+      },
+      "reversed": {
+        "keywords": [
+          "卸下重擔",
+          "委派",
+          "崩潰",
+          "放手"
+        ],
+        "meaning": "開始放下不必要的負擔，或已到達極限需要調整。",
+        "love": "釋放關係中的壓力，重新分配彼此的責任。",
+        "career": "學會委派工作，或因負荷過重而需要停下來。",
+        "reflection": "如果卸下一部分負擔，你會感覺如何？"
+      }
+    },
+    {
+      "id": "wands-page",
+      "name": {
+        "zh": "權杖侍者",
+        "en": "Page of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 11,
+      "rank": "court",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-page.jpg",
+      "symbolism": "年輕人站在荒野中凝視手中的權杖，象徵好奇、探索與新消息。",
+      "upright": {
+        "keywords": [
+          "好奇",
+          "熱情",
+          "探索",
+          "新消息",
+          "學習"
+        ],
+        "meaning": "對新事物充滿熱情與好奇，願意嘗試與學習。",
+        "love": "帶著新鮮感與熱情的互動，或有令人期待的消息。",
+        "career": "適合學習新技能、探索新方向。",
+        "reflection": "最近有什麼讓你感到好奇的事情？"
+      },
+      "reversed": {
+        "keywords": [
+          "三分鐘熱度",
+          "缺乏方向",
+          "不成熟",
+          "壞消息"
+        ],
+        "meaning": "熱情來得快也去得快，或想法缺乏實際規劃。",
+        "love": "互動缺乏誠意或不夠成熟。",
+        "career": "計畫流於空想，或對新事物缺乏耐心。",
+        "reflection": "你的熱情能持續多久？"
+      }
+    },
+    {
+      "id": "wands-knight",
+      "name": {
+        "zh": "權杖騎士",
+        "en": "Knight of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 12,
+      "rank": "court",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-knight.jpg",
+      "symbolism": "騎士騎著前蹄躍起的馬，充滿衝勁，象徵冒險與行動力。",
+      "upright": {
+        "keywords": [
+          "行動力",
+          "冒險",
+          "熱情",
+          "衝勁",
+          "自信"
+        ],
+        "meaning": "充滿能量與衝勁，勇於追求目標，行動迅速。",
+        "love": "熱烈的追求，充滿激情的關係。",
+        "career": "積極進取，適合開拓新領域或挑戰困難任務。",
+        "reflection": "你想立刻去做的事情是什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "衝動",
+          "急躁",
+          "魯莽",
+          "虎頭蛇尾"
+        ],
+        "meaning": "行動過於衝動，容易半途而廢或製造衝突。",
+        "love": "熱情來得快去得快，關係缺乏穩定性。",
+        "career": "未經思考就行動，導致計畫失敗。",
+        "reflection": "在行動之前，你考慮過後果了嗎？"
+      }
+    },
+    {
+      "id": "wands-queen",
+      "name": {
+        "zh": "權杖皇后",
+        "en": "Queen of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 13,
+      "rank": "court",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-queen.jpg",
+      "symbolism": "手持權杖與向日葵的女王，腳邊坐著一隻黑貓，象徵自信、溫暖與魅力。",
+      "upright": {
+        "keywords": [
+          "自信",
+          "魅力",
+          "溫暖",
+          "獨立",
+          "決心"
+        ],
+        "meaning": "散發自信與熱情，能以溫暖的方式影響並帶動他人。",
+        "love": "充滿魅力、主動且真誠的感情態度。",
+        "career": "展現領導魅力與自信，能有效激勵團隊。",
+        "reflection": "你最欣賞自己的哪一個特質？"
+      },
+      "reversed": {
+        "keywords": [
+          "自信不足",
+          "嫉妒",
+          "情緒化",
+          "控制"
+        ],
+        "meaning": "自信動搖或過度渴求他人關注，情緒容易起伏。",
+        "love": "嫉妒或佔有欲影響關係。",
+        "career": "對自己的能力缺乏信心，或表現得過於強勢。",
+        "reflection": "你的不安從何而來？"
+      }
+    },
+    {
+      "id": "wands-king",
+      "name": {
+        "zh": "權杖國王",
+        "en": "King of Wands"
+      },
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 14,
+      "rank": "court",
+      "element": "火",
+      "astrology": null,
+      "image": "cards/wands-king.jpg",
+      "symbolism": "坐在飾有獅子與蜥蜴圖樣王座上的國王，象徵遠見、領導與企圖心。",
+      "upright": {
+        "keywords": [
+          "領導力",
+          "遠見",
+          "企圖心",
+          "魄力",
+          "榮譽"
+        ],
+        "meaning": "具有遠見與魄力，能以熱情與決心帶領他人實現目標。",
+        "love": "主動、可靠且有擔當的伴侶形象。",
+        "career": "適合擔任領導角色，掌握全局推動計畫。",
+        "reflection": "你想帶領自己或他人走向什麼樣的願景？"
+      },
+      "reversed": {
+        "keywords": [
+          "專斷",
+          "急躁",
+          "期望過高",
+          "傲慢"
+        ],
+        "meaning": "領導風格過於強勢或急躁，對他人要求過高。",
+        "love": "在關係中過於主導，忽略對方的感受。",
+        "career": "獨斷獨行，或設定的目標不切實際。",
+        "reflection": "你是否給了自己或他人太大的壓力？"
+      }
+    },
+    {
+      "id": "cups-ace",
+      "name": {
+        "zh": "聖杯王牌",
+        "en": "Ace of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 1,
+      "rank": "ace",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-ace.jpg",
+      "symbolism": "雲中伸出的手托著湧出泉水的聖杯，白鴿銜著聖餅降下，象徵情感的湧現。",
+      "upright": {
+        "keywords": [
+          "新感情",
+          "情感流動",
+          "愛",
+          "直覺",
+          "喜悅"
+        ],
+        "meaning": "新的情感或心靈連結出現，內心充滿溫暖與感動。",
+        "love": "新戀情萌芽，或關係中愛意滿溢。",
+        "career": "對工作產生熱愛，或與同事建立良好的情感連結。",
+        "reflection": "最近有什麼事情觸動了你的心？"
+      },
+      "reversed": {
+        "keywords": [
+          "情感壓抑",
+          "空虛",
+          "自我封閉",
+          "愛的阻塞"
+        ],
+        "meaning": "情感無法順利流動，可能壓抑了感受，或內心感到空虛。",
+        "love": "無法敞開心扉，或付出的愛沒有得到回應。",
+        "career": "對工作缺乏熱情或成就感。",
+        "reflection": "你是否壓抑了某些情緒？"
+      }
+    },
+    {
+      "id": "cups-02",
+      "name": {
+        "zh": "聖杯二",
+        "en": "Two of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 2,
+      "rank": "pip",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-02.jpg",
+      "symbolism": "一男一女交換聖杯，上方有雙蛇杖與獅首，象徵相互吸引與平等的連結。",
+      "upright": {
+        "keywords": [
+          "相互吸引",
+          "夥伴關係",
+          "和諧",
+          "交流",
+          "承諾"
+        ],
+        "meaning": "彼此尊重、心意相通的連結，雙方關係平衡且和諧。",
+        "love": "雙向的好感與互動，關係可能更進一步。",
+        "career": "適合合作，能與夥伴建立互信。",
+        "reflection": "在這段關係中，你們如何彼此給予？"
+      },
+      "reversed": {
+        "keywords": [
+          "失衡",
+          "溝通不良",
+          "分歧",
+          "疏離"
+        ],
+        "meaning": "關係中的平衡被打破，溝通出現誤解或距離。",
+        "love": "雙方感受不一致，或關係出現裂痕。",
+        "career": "合作關係出現摩擦或信任危機。",
+        "reflection": "你們之間有什麼尚未說開的話？"
+      }
+    },
+    {
+      "id": "cups-03",
+      "name": {
+        "zh": "聖杯三",
+        "en": "Three of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 3,
+      "rank": "pip",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-03.jpg",
+      "symbolism": "三名女子舉杯共舞，象徵友誼、慶祝與群體的支持。",
+      "upright": {
+        "keywords": [
+          "友誼",
+          "慶祝",
+          "團聚",
+          "支持",
+          "歡樂"
+        ],
+        "meaning": "與朋友或群體分享喜悅，感受到支持與歸屬。",
+        "love": "關係受到朋友祝福，或在社交場合遇見好對象。",
+        "career": "團隊合作愉快，適合慶祝成果。",
+        "reflection": "誰是能與你分享喜悅的人？"
+      },
+      "reversed": {
+        "keywords": [
+          "過度玩樂",
+          "人際摩擦",
+          "第三者",
+          "孤立"
+        ],
+        "meaning": "過度沉溺於社交玩樂，或朋友之間產生摩擦。",
+        "love": "需留意第三者介入，或朋友對關係的影響。",
+        "career": "團隊中出現小圈圈或流言。",
+        "reflection": "你身邊的人際關係，是否帶給你真正的支持？"
+      }
+    },
+    {
+      "id": "cups-04",
+      "name": {
+        "zh": "聖杯四",
+        "en": "Four of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 4,
+      "rank": "pip",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-04.jpg",
+      "symbolism": "坐在樹下的人雙臂交叉，無視雲中遞來的第四個聖杯，象徵冷漠與忽略眼前的機會。",
+      "upright": {
+        "keywords": [
+          "冷漠",
+          "不滿足",
+          "內省",
+          "忽略機會",
+          "倦怠"
+        ],
+        "meaning": "對現狀感到無趣或不滿，因而忽略了身邊已有的機會。",
+        "love": "對關係感到倦怠，或對他人的心意視而不見。",
+        "career": "對工作提不起勁，可能錯失新的機會。",
+        "reflection": "有沒有什麼機會，其實就在你眼前？"
+      },
+      "reversed": {
+        "keywords": [
+          "重新覺察",
+          "接受機會",
+          "走出低潮",
+          "重拾動力"
+        ],
+        "meaning": "開始走出冷漠，願意重新看見並接受新的可能性。",
+        "love": "願意重新敞開心胸面對感情。",
+        "career": "重新找回動力，準備把握新機會。",
+        "reflection": "是什麼讓你願意重新投入？"
+      }
+    },
+    {
+      "id": "cups-05",
+      "name": {
+        "zh": "聖杯五",
+        "en": "Five of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 5,
+      "rank": "pip",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-05.jpg",
+      "symbolism": "身披黑斗篷的人低頭看著三個傾倒的聖杯，身後仍有兩個站立的杯子，象徵失落與悲傷。",
+      "upright": {
+        "keywords": [
+          "失落",
+          "悲傷",
+          "遺憾",
+          "懊悔",
+          "專注於失去"
+        ],
+        "meaning": "沉浸在失去與遺憾中，卻可能忽略了仍然擁有的事物。",
+        "love": "為一段關係的失落感到難過，或對過去耿耿於懷。",
+        "career": "計畫失敗或遭遇挫折，情緒低落。",
+        "reflection": "在失去之外，你還擁有什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "接受",
+          "療癒",
+          "走出悲傷",
+          "向前看"
+        ],
+        "meaning": "逐漸接受失去，開始療癒並重新看見希望。",
+        "love": "從感情傷痛中走出，或與過去和解。",
+        "career": "從失敗中學到教訓，準備重新出發。",
+        "reflection": "這次的經驗教會了你什麼？"
+      }
+    },
+    {
+      "id": "cups-06",
+      "name": {
+        "zh": "聖杯六",
+        "en": "Six of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 6,
+      "rank": "pip",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-06.jpg",
+      "symbolism": "孩子將插著花朵的聖杯遞給另一個孩子，象徵懷舊、童年與純真的善意。",
+      "upright": {
+        "keywords": [
+          "懷舊",
+          "回憶",
+          "純真",
+          "善意",
+          "舊識"
+        ],
+        "meaning": "美好的回憶或舊有的連結再次浮現，帶來溫暖與安慰。",
+        "love": "與舊識重逢，或關係中充滿單純的善意。",
+        "career": "過去的經驗或人脈帶來幫助。",
+        "reflection": "哪段回憶帶給你力量？"
+      },
+      "reversed": {
+        "keywords": [
+          "沉溺過去",
+          "無法前進",
+          "美化回憶",
+          "告別過去"
+        ],
+        "meaning": "過度懷念過去而無法活在當下，也可能代表準備好告別過去。",
+        "love": "放不下舊情，或將過去的關係理想化。",
+        "career": "固守過去的做法，難以接受新的改變。",
+        "reflection": "你懷念的是過去，還是當時的自己？"
+      }
+    },
+    {
+      "id": "cups-07",
+      "name": {
+        "zh": "聖杯七",
+        "en": "Seven of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 7,
+      "rank": "pip",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-07.jpg",
+      "symbolism": "人們面對雲中七個盛著不同物品的聖杯，象徵幻想、誘惑與眾多選擇。",
+      "upright": {
+        "keywords": [
+          "選擇",
+          "幻想",
+          "白日夢",
+          "誘惑",
+          "可能性"
+        ],
+        "meaning": "面前有許多選擇與想像，需要分辨哪些是實際可行的。",
+        "love": "對感情有許多幻想，或在多個對象之間猶豫不決。",
+        "career": "選項很多但難以聚焦，需要務實評估。",
+        "reflection": "在眾多選項中，哪一個最符合現實與你的需要？"
+      },
+      "reversed": {
+        "keywords": [
+          "清醒",
+          "做出選擇",
+          "聚焦",
+          "幻滅"
+        ],
+        "meaning": "從幻想中清醒過來，開始聚焦並做出實際的選擇。",
+        "love": "看清關係的真實樣貌，不再抱持不切實際的期待。",
+        "career": "釐清方向，專注於可行的目標。",
+        "reflection": "現在的你，最想專注在哪一件事上？"
+      }
+    },
+    {
+      "id": "cups-08",
+      "name": {
+        "zh": "聖杯八",
+        "en": "Eight of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 8,
+      "rank": "pip",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-08.jpg",
+      "symbolism": "男子在月光下背對八個疊好的聖杯，走向遠方山中，象徵離開與追尋更深的意義。",
+      "upright": {
+        "keywords": [
+          "離開",
+          "放下",
+          "追尋意義",
+          "轉身",
+          "失望"
+        ],
+        "meaning": "意識到現況無法滿足內心需求，決定離開並尋找更有意義的方向。",
+        "love": "離開不再令人滿足的關係，或在感情中追求更深層的連結。",
+        "career": "考慮轉職，或放下不再有意義的工作。",
+        "reflection": "你正在尋找的，是什麼樣的意義？"
+      },
+      "reversed": {
+        "keywords": [
+          "猶豫離開",
+          "害怕改變",
+          "迷惘",
+          "留戀"
+        ],
+        "meaning": "知道該離開卻遲遲無法放下，或對方向感到迷惘。",
+        "love": "明知關係不適合仍留戀不捨。",
+        "career": "想改變卻害怕失去現有的安全感。",
+        "reflection": "是什麼讓你遲遲不願離開？"
+      }
+    },
+    {
+      "id": "cups-09",
+      "name": {
+        "zh": "聖杯九",
+        "en": "Nine of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 9,
+      "rank": "pip",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-09.jpg",
+      "symbolism": "心滿意足的人雙臂交叉坐在九個聖杯前，象徵願望實現與滿足。",
+      "upright": {
+        "keywords": [
+          "滿足",
+          "願望實現",
+          "享受",
+          "幸福",
+          "感恩"
+        ],
+        "meaning": "願望逐步實現，內心感到滿足與愉悅。",
+        "love": "感情生活令人滿意，關係甜蜜。",
+        "career": "目標達成，獲得物質或精神上的滿足。",
+        "reflection": "你現在最感恩的是什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "不滿足",
+          "過度放縱",
+          "虛榮",
+          "期待落空"
+        ],
+        "meaning": "外在看似滿足，內心卻仍感空虛，或過度追求享樂。",
+        "love": "關係表面美好，但未能滿足內心真正的需求。",
+        "career": "成果不如預期，或過度追求外在的成功。",
+        "reflection": "什麼才能讓你真正感到滿足？"
+      }
+    },
+    {
+      "id": "cups-10",
+      "name": {
+        "zh": "聖杯十",
+        "en": "Ten of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 10,
+      "rank": "pip",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-10.jpg",
+      "symbolism": "一家人在彩虹下歡欣相擁，象徵家庭和樂與情感的圓滿。",
+      "upright": {
+        "keywords": [
+          "圓滿",
+          "家庭和樂",
+          "幸福",
+          "和諧",
+          "長久"
+        ],
+        "meaning": "情感層面達到圓滿，與重要的人共享幸福與和諧。",
+        "love": "穩定幸福的關係，可能邁向長期承諾或組成家庭。",
+        "career": "工作與生活取得平衡，團隊如同家人般和諧。",
+        "reflection": "對你來說，幸福是什麼樣子？"
+      },
+      "reversed": {
+        "keywords": [
+          "家庭不和",
+          "價值觀分歧",
+          "理想破滅",
+          "疏離"
+        ],
+        "meaning": "理想中的和諧受到挑戰，家庭或親密關係出現分歧。",
+        "love": "雙方對未來的期待不同，或關係與家庭期待相衝突。",
+        "career": "工作與家庭難以兼顧。",
+        "reflection": "你理想中的關係，與現實有哪些落差？"
+      }
+    },
+    {
+      "id": "cups-page",
+      "name": {
+        "zh": "聖杯侍者",
+        "en": "Page of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 11,
+      "rank": "court",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-page.jpg",
+      "symbolism": "年輕人看著聖杯中探出頭的魚，象徵想像力、直覺與情感上的驚喜。",
+      "upright": {
+        "keywords": [
+          "想像力",
+          "敏感",
+          "直覺",
+          "情感訊息",
+          "驚喜"
+        ],
+        "meaning": "帶著好奇與純真面對情感，可能有令人驚喜的訊息或靈感。",
+        "love": "有人向你表達好感，或關係中出現甜蜜的小驚喜。",
+        "career": "創意靈感湧現，適合發揮想像力。",
+        "reflection": "你的直覺最近想告訴你什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "情緒化",
+          "不成熟",
+          "逃避現實",
+          "創意受阻"
+        ],
+        "meaning": "情緒起伏較大，或過度沉浸在幻想之中。",
+        "love": "感情表達不夠成熟，或對關係過度理想化。",
+        "career": "創意難以落實，或情緒影響工作表現。",
+        "reflection": "你是否被情緒牽著走？"
+      }
+    },
+    {
+      "id": "cups-knight",
+      "name": {
+        "zh": "聖杯騎士",
+        "en": "Knight of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 12,
+      "rank": "court",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-knight.jpg",
+      "symbolism": "騎著白馬、手捧聖杯緩緩前行的騎士，象徵浪漫、邀請與理想。",
+      "upright": {
+        "keywords": [
+          "浪漫",
+          "邀約",
+          "理想主義",
+          "追求",
+          "溫柔"
+        ],
+        "meaning": "帶著真誠與浪漫追求理想，可能收到情感或創意上的邀請。",
+        "love": "浪漫的追求或告白，關係充滿柔情。",
+        "career": "收到邀約或提案，適合從事與創意、美感相關的工作。",
+        "reflection": "你心中的理想是什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "不切實際",
+          "情緒善變",
+          "虛假承諾",
+          "失望"
+        ],
+        "meaning": "理想過於美化，或言語動聽卻缺乏實際行動。",
+        "love": "對方的熱情可能不夠持久，需留意承諾是否兌現。",
+        "career": "計畫不切實際，或答應的事未能做到。",
+        "reflection": "你看見的是真實的對方，還是你的想像？"
+      }
+    },
+    {
+      "id": "cups-queen",
+      "name": {
+        "zh": "聖杯皇后",
+        "en": "Queen of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 13,
+      "rank": "court",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-queen.jpg",
+      "symbolism": "坐在海邊的女王凝視著精緻的聖杯，象徵同理、包容與情感智慧。",
+      "upright": {
+        "keywords": [
+          "同理心",
+          "溫柔",
+          "直覺",
+          "包容",
+          "情感成熟"
+        ],
+        "meaning": "以同理與包容面對他人，同時信任自己的直覺。",
+        "love": "溫柔體貼、情感成熟的關係。",
+        "career": "適合需要傾聽與關懷的角色，以同理心凝聚團隊。",
+        "reflection": "你如何同樣溫柔地對待自己？"
+      },
+      "reversed": {
+        "keywords": [
+          "情緒依賴",
+          "過度敏感",
+          "界線模糊",
+          "自我犧牲"
+        ],
+        "meaning": "過度承接他人的情緒而忽略自己，或情緒起伏過大。",
+        "love": "在關係中過度依賴或付出，失去自我。",
+        "career": "情緒容易受影響，難以專業地劃清界線。",
+        "reflection": "你是否需要為自己設立更清楚的界線？"
+      }
+    },
+    {
+      "id": "cups-king",
+      "name": {
+        "zh": "聖杯國王",
+        "en": "King of Cups"
+      },
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 14,
+      "rank": "court",
+      "element": "水",
+      "astrology": null,
+      "image": "cards/cups-king.jpg",
+      "symbolism": "坐在海中王座上的國王，周圍波濤洶湧卻神情平靜，象徵情緒的成熟與穩定。",
+      "upright": {
+        "keywords": [
+          "情緒穩定",
+          "成熟",
+          "包容",
+          "智慧",
+          "善於協調"
+        ],
+        "meaning": "在情緒與理性之間取得平衡，以成熟穩重的態度處理事情。",
+        "love": "成熟穩定、能給予支持的伴侶。",
+        "career": "善於協調溝通，能在壓力下保持冷靜。",
+        "reflection": "面對情緒波動時，你如何保持穩定？"
+      },
+      "reversed": {
+        "keywords": [
+          "情緒壓抑",
+          "冷漠",
+          "操控",
+          "情緒失控"
+        ],
+        "meaning": "表面平靜但壓抑情緒，或以情緒操控他人。",
+        "love": "對方情感疏離，或關係中缺乏真誠的交流。",
+        "career": "情緒管理失衡，影響判斷與團隊氣氛。",
+        "reflection": "你是否壓抑了真正的感受？"
+      }
+    },
+    {
+      "id": "swords-ace",
+      "name": {
+        "zh": "寶劍王牌",
+        "en": "Ace of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 1,
+      "rank": "ace",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-ace.jpg",
+      "symbolism": "雲中伸出的手高舉寶劍，劍尖戴著王冠，象徵清晰的思考與突破。",
+      "upright": {
+        "keywords": [
+          "清晰",
+          "真相",
+          "突破",
+          "決斷",
+          "新想法"
+        ],
+        "meaning": "思緒清晰，看見事情的真相，能做出果斷的決定。",
+        "love": "坦誠溝通讓關係更清楚，或對感情有新的認識。",
+        "career": "新的想法或突破性的解決方案出現。",
+        "reflection": "如果誠實面對事實，你會得出什麼結論？"
+      },
+      "reversed": {
+        "keywords": [
+          "混亂",
+          "誤判",
+          "溝通不良",
+          "思緒不清"
+        ],
+        "meaning": "思緒混亂或資訊有誤，容易做出錯誤判斷。",
+        "love": "誤會或言語傷害影響關係。",
+        "career": "決策方向不明，或溝通造成誤解。",
+        "reflection": "有哪些資訊需要再確認？"
+      }
+    },
+    {
+      "id": "swords-02",
+      "name": {
+        "zh": "寶劍二",
+        "en": "Two of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 2,
+      "rank": "pip",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-02.jpg",
+      "symbolism": "蒙眼的女子雙手交叉持著兩把劍，背對海洋而坐，象徵僵持與難以抉擇。",
+      "upright": {
+        "keywords": [
+          "僵局",
+          "難以抉擇",
+          "逃避",
+          "暫時平衡",
+          "猶豫"
+        ],
+        "meaning": "面臨兩難的選擇，選擇暫時不看、不決定，讓狀況陷入僵持。",
+        "love": "對感情猶豫不決，或刻意迴避問題。",
+        "career": "在兩個選項之間難以取捨。",
+        "reflection": "你在逃避面對的是什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "做出決定",
+          "資訊過載",
+          "混亂",
+          "真相浮現"
+        ],
+        "meaning": "僵局被打破，必須做出選擇；也可能因資訊太多而更加混亂。",
+        "love": "不得不面對過去迴避的問題。",
+        "career": "必須做出決策，或因壓力而焦慮。",
+        "reflection": "如果現在一定要選，你會選哪一個？"
+      }
+    },
+    {
+      "id": "swords-03",
+      "name": {
+        "zh": "寶劍三",
+        "en": "Three of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 3,
+      "rank": "pip",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-03.jpg",
+      "symbolism": "三把劍刺穿一顆紅心，背景是烏雲與雨，象徵心痛與悲傷。",
+      "upright": {
+        "keywords": [
+          "心痛",
+          "悲傷",
+          "失望",
+          "分離",
+          "傷害"
+        ],
+        "meaning": "經歷情感上的痛苦或失望，需要給自己時間面對與消化。",
+        "love": "爭吵、背叛或分離帶來的心痛。",
+        "career": "遭遇批評或挫折，感到受傷。",
+        "reflection": "你允許自己好好感受這份難過嗎？"
+      },
+      "reversed": {
+        "keywords": [
+          "療癒",
+          "釋放痛苦",
+          "走出傷痛",
+          "原諒"
+        ],
+        "meaning": "逐漸從傷痛中恢復，學習放下與原諒。",
+        "love": "從感情的傷痛中慢慢恢復。",
+        "career": "從挫折中重新振作。",
+        "reflection": "是什麼幫助你從傷痛中走出來？"
+      }
+    },
+    {
+      "id": "swords-04",
+      "name": {
+        "zh": "寶劍四",
+        "en": "Four of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 4,
+      "rank": "pip",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-04.jpg",
+      "symbolism": "騎士雕像靜靜躺在教堂中，牆上掛著三把劍，身下放著一把劍，象徵休息與恢復。",
+      "upright": {
+        "keywords": [
+          "休息",
+          "恢復",
+          "沉澱",
+          "暫停",
+          "冥想"
+        ],
+        "meaning": "需要暫時停下腳步休息，讓身心恢復後再出發。",
+        "love": "關係需要一些空間與冷靜期。",
+        "career": "適合暫停、休假或重新整理思緒。",
+        "reflection": "你上一次真正休息是什麼時候？"
+      },
+      "reversed": {
+        "keywords": [
+          "倦怠",
+          "焦躁",
+          "無法休息",
+          "重新出發"
+        ],
+        "meaning": "身心疲憊卻無法好好休息，或休息結束、準備重新行動。",
+        "love": "冷靜期結束，需要重新面對關係。",
+        "career": "過勞或倦怠，也可能是休整後重返崗位。",
+        "reflection": "什麼讓你無法放鬆？"
+      }
+    },
+    {
+      "id": "swords-05",
+      "name": {
+        "zh": "寶劍五",
+        "en": "Five of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 5,
+      "rank": "pip",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-05.jpg",
+      "symbolism": "神情得意的人撿起寶劍，另外兩人沮喪離去，象徵衝突後的勝負與代價。",
+      "upright": {
+        "keywords": [
+          "衝突",
+          "勝之不武",
+          "自私",
+          "爭執",
+          "代價"
+        ],
+        "meaning": "在衝突中即使贏了，也可能付出關係或名譽的代價。",
+        "love": "爭吵時只想贏，卻傷害了彼此。",
+        "career": "職場競爭激烈，需留意手段與後果。",
+        "reflection": "贏得這場爭執，對你真的重要嗎？"
+      },
+      "reversed": {
+        "keywords": [
+          "和解",
+          "放下爭執",
+          "後悔",
+          "修復"
+        ],
+        "meaning": "願意放下爭執、尋求和解，或對過去的衝突感到後悔。",
+        "love": "爭吵後嘗試修復關係。",
+        "career": "化解衝突，或從失敗中學到教訓。",
+        "reflection": "你願意先踏出和解的一步嗎？"
+      }
+    },
+    {
+      "id": "swords-06",
+      "name": {
+        "zh": "寶劍六",
+        "en": "Six of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 6,
+      "rank": "pip",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-06.jpg",
+      "symbolism": "船夫載著身披斗篷的人與孩子，駛向平靜的水面，象徵過渡與離開困境。",
+      "upright": {
+        "keywords": [
+          "過渡",
+          "離開困境",
+          "前進",
+          "療癒",
+          "轉變"
+        ],
+        "meaning": "正逐漸離開困難的處境，朝向較平靜的狀態前進。",
+        "love": "關係度過難關，或從過去的傷痛中走出。",
+        "career": "轉換環境或職務，情況逐漸改善。",
+        "reflection": "你正在離開什麼，又走向哪裡？"
+      },
+      "reversed": {
+        "keywords": [
+          "難以離開",
+          "停滯",
+          "未解決的問題",
+          "抗拒"
+        ],
+        "meaning": "想要離開困境卻受到阻礙，或過去的問題仍跟隨著你。",
+        "love": "難以放下過去，關係問題反覆出現。",
+        "career": "轉換受阻，或問題尚未真正解決。",
+        "reflection": "有什麼未解決的問題需要先處理？"
+      }
+    },
+    {
+      "id": "swords-07",
+      "name": {
+        "zh": "寶劍七",
+        "en": "Seven of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 7,
+      "rank": "pip",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-07.jpg",
+      "symbolism": "男子躡手躡腳地帶走五把劍並回頭張望，象徵策略、隱瞞與取巧。",
+      "upright": {
+        "keywords": [
+          "策略",
+          "隱瞞",
+          "取巧",
+          "獨自行動",
+          "欺騙"
+        ],
+        "meaning": "可能需要運用策略行事，但也需留意不誠實或投機取巧的行為。",
+        "love": "關係中可能有隱瞞或不坦誠之處。",
+        "career": "需要謹慎的策略，也要提防他人的小動作。",
+        "reflection": "你是否在逃避某些需要誠實面對的事？"
+      },
+      "reversed": {
+        "keywords": [
+          "坦白",
+          "良心發現",
+          "被揭穿",
+          "重新思考"
+        ],
+        "meaning": "隱瞞的事情可能被揭露，或決定以更誠實的方式面對。",
+        "love": "開誠布公，坦白過去未說的事。",
+        "career": "策略失效，或決定採取更透明的做法。",
+        "reflection": "坦誠可能帶來什麼樣的改變？"
+      }
+    },
+    {
+      "id": "swords-08",
+      "name": {
+        "zh": "寶劍八",
+        "en": "Eight of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 8,
+      "rank": "pip",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-08.jpg",
+      "symbolism": "蒙眼被綁的女子被八把劍圍住，但前方並非無路可走，象徵自我設限。",
+      "upright": {
+        "keywords": [
+          "受困",
+          "自我設限",
+          "無力感",
+          "恐懼",
+          "限制"
+        ],
+        "meaning": "感覺被困住、無法行動，但限制往往來自自己的想法與恐懼。",
+        "love": "在關係中感到受困，或被自己的不安限制。",
+        "career": "覺得沒有選擇，但可能有被忽略的出路。",
+        "reflection": "困住你的，是現實還是你的想法？"
+      },
+      "reversed": {
+        "keywords": [
+          "掙脫",
+          "看見出路",
+          "重獲自由",
+          "新觀點"
+        ],
+        "meaning": "開始意識到自我設限，逐漸找到脫困的方法。",
+        "love": "擺脫受困的關係模式，重新找回自主。",
+        "career": "發現新的可能，走出困境。",
+        "reflection": "你看見了哪些之前沒注意到的選項？"
+      }
+    },
+    {
+      "id": "swords-09",
+      "name": {
+        "zh": "寶劍九",
+        "en": "Nine of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 9,
+      "rank": "pip",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-09.jpg",
+      "symbolism": "從夢中驚醒的人雙手掩面，牆上掛著九把劍，象徵焦慮、失眠與擔憂。",
+      "upright": {
+        "keywords": [
+          "焦慮",
+          "擔憂",
+          "失眠",
+          "罪惡感",
+          "恐懼"
+        ],
+        "meaning": "被擔憂與負面想法困擾，內心的恐懼可能比現實更嚴重。",
+        "love": "對關係過度擔心或胡思亂想。",
+        "career": "工作壓力造成焦慮與失眠。",
+        "reflection": "你擔心的事情，最壞會怎麼樣？實際發生的機率有多大？"
+      },
+      "reversed": {
+        "keywords": [
+          "走出焦慮",
+          "尋求協助",
+          "釋懷",
+          "面對恐懼"
+        ],
+        "meaning": "開始走出焦慮並尋求支持；若壓力持續，也提醒你不必獨自承受。",
+        "love": "擔憂逐漸減輕，或終於說出內心的不安。",
+        "career": "壓力開始緩解，或需要正視自己的身心狀況。",
+        "reflection": "有誰是你可以傾訴的對象？"
+      }
+    },
+    {
+      "id": "swords-10",
+      "name": {
+        "zh": "寶劍十",
+        "en": "Ten of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 10,
+      "rank": "pip",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-10.jpg",
+      "symbolism": "一人臥倒在地，背上插著十把劍，遠方天際露出曙光，象徵結束與谷底後的轉機。",
+      "upright": {
+        "keywords": [
+          "終結",
+          "谷底",
+          "痛苦結束",
+          "背叛",
+          "新黎明"
+        ],
+        "meaning": "某件事情走到盡頭，雖然痛苦，但最糟的時刻已經過去。",
+        "love": "關係的結束或深刻的失望。",
+        "career": "計畫失敗或遭遇重大挫折，但也是重新開始的契機。",
+        "reflection": "走過谷底之後，你想如何重新出發？"
+      },
+      "reversed": {
+        "keywords": [
+          "復原",
+          "谷底反彈",
+          "不願放手",
+          "重生"
+        ],
+        "meaning": "開始從谷底慢慢復原，或仍抗拒接受結束的事實。",
+        "love": "從感情傷害中逐漸復原。",
+        "career": "從挫敗中重新站起。",
+        "reflection": "你是否已經準備好接受結束？"
+      }
+    },
+    {
+      "id": "swords-page",
+      "name": {
+        "zh": "寶劍侍者",
+        "en": "Page of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 11,
+      "rank": "court",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-page.jpg",
+      "symbolism": "年輕人手持寶劍站在風中，警覺地觀察四周，象徵好奇心、觀察與求知。",
+      "upright": {
+        "keywords": [
+          "好奇",
+          "觀察",
+          "求知",
+          "警覺",
+          "溝通"
+        ],
+        "meaning": "充滿好奇心與求知欲，善於觀察並蒐集資訊。",
+        "love": "想多了解對方，關係處於試探與溝通的階段。",
+        "career": "適合學習、研究與蒐集資訊。",
+        "reflection": "你還想了解哪些事情？"
+      },
+      "reversed": {
+        "keywords": [
+          "流言",
+          "言語傷人",
+          "多疑",
+          "草率"
+        ],
+        "meaning": "言語可能過於尖銳，或過度猜疑他人。",
+        "love": "猜疑或言語衝突影響關係。",
+        "career": "流言或溝通不當造成問題。",
+        "reflection": "你說出口的話，是否經過思考？"
+      }
+    },
+    {
+      "id": "swords-knight",
+      "name": {
+        "zh": "寶劍騎士",
+        "en": "Knight of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 12,
+      "rank": "court",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-knight.jpg",
+      "symbolism": "騎士揮舞寶劍、策馬疾馳衝向前方，象徵果斷、速度與直接。",
+      "upright": {
+        "keywords": [
+          "果斷",
+          "直接",
+          "迅速",
+          "積極",
+          "理性"
+        ],
+        "meaning": "思緒敏捷、行動迅速，能果斷地處理問題。",
+        "love": "直接坦率的表達，關係進展快速。",
+        "career": "效率高、行動力強，適合快速解決問題。",
+        "reflection": "你準備好果斷行動了嗎？"
+      },
+      "reversed": {
+        "keywords": [
+          "衝動",
+          "言語尖銳",
+          "魯莽",
+          "缺乏方向"
+        ],
+        "meaning": "行動過快而缺乏思考，言語可能傷害他人。",
+        "love": "衝動的言語或決定造成衝突。",
+        "career": "急於求成而忽略細節。",
+        "reflection": "放慢腳步，你會看見什麼？"
+      }
+    },
+    {
+      "id": "swords-queen",
+      "name": {
+        "zh": "寶劍皇后",
+        "en": "Queen of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 13,
+      "rank": "court",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-queen.jpg",
+      "symbolism": "坐在雲端王座上的女王一手高舉寶劍、一手向前伸出，象徵清晰的判斷與獨立。",
+      "upright": {
+        "keywords": [
+          "獨立",
+          "清晰",
+          "理性",
+          "誠實",
+          "洞察"
+        ],
+        "meaning": "以清晰的判斷與誠實的態度面對事情，不被情緒左右。",
+        "love": "重視坦誠溝通，在關係中保持獨立。",
+        "career": "判斷力敏銳，能客觀分析問題。",
+        "reflection": "你需要誠實面對的事實是什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "冷漠",
+          "尖刻",
+          "過度批判",
+          "孤立"
+        ],
+        "meaning": "理性過頭而顯得冷漠，或言語過於尖銳。",
+        "love": "情感疏離，或因過度批判而傷害關係。",
+        "career": "對他人過於嚴苛，影響合作關係。",
+        "reflection": "你的理性是否掩蓋了真正的感受？"
+      }
+    },
+    {
+      "id": "swords-king",
+      "name": {
+        "zh": "寶劍國王",
+        "en": "King of Swords"
+      },
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 14,
+      "rank": "court",
+      "element": "風",
+      "astrology": null,
+      "image": "cards/swords-king.jpg",
+      "symbolism": "坐在王座上手持寶劍、目光直視前方的國王，象徵權威、理性與公正。",
+      "upright": {
+        "keywords": [
+          "理性",
+          "權威",
+          "公正",
+          "分析",
+          "專業"
+        ],
+        "meaning": "以理性與專業做出公正的判斷，思路清晰且有原則。",
+        "love": "理性成熟的伴侶，重視溝通與原則。",
+        "career": "展現專業與權威，適合做出重要決策。",
+        "reflection": "如果完全依據事實與原則，你會怎麼做？"
+      },
+      "reversed": {
+        "keywords": [
+          "專斷",
+          "冷酷",
+          "濫用權力",
+          "操控"
+        ],
+        "meaning": "以權威壓人或過於冷酷，忽略他人的感受。",
+        "love": "在關係中過於理性而缺乏溫度，或試圖控制對方。",
+        "career": "決策獨斷，或濫用職權。",
+        "reflection": "你的判斷是否考慮了他人的立場？"
+      }
+    },
+    {
+      "id": "pentacles-ace",
+      "name": {
+        "zh": "錢幣王牌",
+        "en": "Ace of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 1,
+      "rank": "ace",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-ace.jpg",
+      "symbolism": "雲中伸出的手托著一枚錢幣，下方是通往遠方的花園小徑，象徵物質上的新機會。",
+      "upright": {
+        "keywords": [
+          "新機會",
+          "財富",
+          "穩定",
+          "實際的開始",
+          "潛力"
+        ],
+        "meaning": "物質或實際層面出現新的機會，是打下穩固基礎的好時機。",
+        "love": "關係有穩定發展的潛力，或出現務實可靠的對象。",
+        "career": "新工作、加薪或投資機會出現。",
+        "reflection": "你可以如何把握這個實際的機會？"
+      },
+      "reversed": {
+        "keywords": [
+          "錯失機會",
+          "財務不穩",
+          "計畫不周",
+          "浪費"
+        ],
+        "meaning": "機會未被好好把握，或財務規劃不夠周全。",
+        "love": "關係缺乏穩固的基礎。",
+        "career": "錯失機會，或計畫難以落實。",
+        "reflection": "你是否忽略了眼前的實際機會？"
+      }
+    },
+    {
+      "id": "pentacles-02",
+      "name": {
+        "zh": "錢幣二",
+        "en": "Two of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 2,
+      "rank": "pip",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-02.jpg",
+      "symbolism": "男子邊跳舞邊拋接兩枚由無限符號相連的錢幣，背景是起伏的海浪，象徵平衡與調度。",
+      "upright": {
+        "keywords": [
+          "平衡",
+          "彈性",
+          "多工",
+          "調度",
+          "適應"
+        ],
+        "meaning": "需要在多件事情之間取得平衡，以彈性與靈活應對變化。",
+        "love": "在感情與生活的其他部分之間取得平衡。",
+        "career": "同時處理多項任務，需妥善安排時間與資源。",
+        "reflection": "你如何安排生活中的優先順序？"
+      },
+      "reversed": {
+        "keywords": [
+          "失衡",
+          "手忙腳亂",
+          "過度負荷",
+          "財務混亂"
+        ],
+        "meaning": "事情太多而顧此失彼，難以維持平衡。",
+        "love": "因為忙碌而忽略了關係。",
+        "career": "工作量過大，時間或財務管理失控。",
+        "reflection": "有哪件事可以暫時放下？"
+      }
+    },
+    {
+      "id": "pentacles-03",
+      "name": {
+        "zh": "錢幣三",
+        "en": "Three of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 3,
+      "rank": "pip",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-03.jpg",
+      "symbolism": "工匠在教堂中施工，兩位人士拿著設計圖與他討論，象徵合作與專業技能。",
+      "upright": {
+        "keywords": [
+          "合作",
+          "專業",
+          "技能",
+          "團隊",
+          "認可"
+        ],
+        "meaning": "透過合作與專業技能共同完成目標，努力獲得認可。",
+        "love": "雙方共同經營關係，一起為未來努力。",
+        "career": "團隊合作順利，專業能力受到肯定。",
+        "reflection": "你如何與他人互補合作？"
+      },
+      "reversed": {
+        "keywords": [
+          "合作不佳",
+          "品質低落",
+          "缺乏規劃",
+          "不被認可"
+        ],
+        "meaning": "團隊溝通不良或各做各的，影響成果品質。",
+        "love": "雙方對關係的投入程度不一致。",
+        "career": "合作出現問題，或專業未被重視。",
+        "reflection": "團隊中缺少的是什麼？"
+      }
+    },
+    {
+      "id": "pentacles-04",
+      "name": {
+        "zh": "錢幣四",
+        "en": "Four of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 4,
+      "rank": "pip",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-04.jpg",
+      "symbolism": "男子緊抱一枚錢幣，腳下踩著兩枚、頭頂頂著一枚，象徵保守、守成與佔有。",
+      "upright": {
+        "keywords": [
+          "守成",
+          "保守",
+          "安全感",
+          "節儉",
+          "控制"
+        ],
+        "meaning": "重視穩定與安全感，傾向保守並守住現有的資源。",
+        "love": "重視關係的穩定，但也可能帶有佔有欲。",
+        "career": "財務穩健、謹慎理財，但可能過於保守。",
+        "reflection": "你害怕失去的是什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "過度吝嗇",
+          "學習放手",
+          "財務變動",
+          "慷慨"
+        ],
+        "meaning": "過度執著於掌控，或開始學習放手與分享。",
+        "love": "佔有欲影響關係，或學習給對方更多空間。",
+        "career": "財務出現變動，或需要調整過度保守的策略。",
+        "reflection": "放手一點，會發生什麼事？"
+      }
+    },
+    {
+      "id": "pentacles-05",
+      "name": {
+        "zh": "錢幣五",
+        "en": "Five of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 5,
+      "rank": "pip",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-05.jpg",
+      "symbolism": "兩個衣衫襤褸的人在雪中走過明亮的教堂窗前，象徵困境與被排除在外的感受。",
+      "upright": {
+        "keywords": [
+          "困境",
+          "匱乏",
+          "孤立",
+          "擔憂",
+          "缺乏支持"
+        ],
+        "meaning": "面臨物質或心理上的困難，感到孤立無援，但幫助可能就在附近。",
+        "love": "感到孤單或不被支持，或兩人一同面對困難。",
+        "career": "財務壓力或工作不穩定，需要尋求資源協助。",
+        "reflection": "你身邊有哪些可以尋求幫助的資源？"
+      },
+      "reversed": {
+        "keywords": [
+          "復原",
+          "獲得幫助",
+          "走出困境",
+          "重建"
+        ],
+        "meaning": "困境逐漸改善，開始獲得支持與資源。",
+        "love": "關係度過難關，重新找回溫暖。",
+        "career": "財務狀況好轉，或找到新的機會。",
+        "reflection": "誰在你困難時伸出了援手？"
+      }
+    },
+    {
+      "id": "pentacles-06",
+      "name": {
+        "zh": "錢幣六",
+        "en": "Six of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 6,
+      "rank": "pip",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-06.jpg",
+      "symbolism": "富商一手持天秤，一手將錢幣分給貧困的人，象徵給予、接受與資源的分配。",
+      "upright": {
+        "keywords": [
+          "給予",
+          "慷慨",
+          "分享",
+          "互惠",
+          "援助"
+        ],
+        "meaning": "資源的流動與分享，無論是給予或接受，都能帶來平衡。",
+        "love": "雙方互相付出，關係中有關懷與支持。",
+        "career": "獲得資助、加薪或貴人幫助，或你有能力幫助他人。",
+        "reflection": "在給予和接受之間，你是否取得了平衡？"
+      },
+      "reversed": {
+        "keywords": [
+          "不對等",
+          "附帶條件的給予",
+          "債務",
+          "權力失衡"
+        ],
+        "meaning": "付出與回報失衡，或給予的背後帶有條件或權力關係。",
+        "love": "一方付出過多，關係出現不平等。",
+        "career": "報酬不公，或需留意債務問題。",
+        "reflection": "你的付出是否有被公平對待？"
+      }
+    },
+    {
+      "id": "pentacles-07",
+      "name": {
+        "zh": "錢幣七",
+        "en": "Seven of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 7,
+      "rank": "pip",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-07.jpg",
+      "symbolism": "農夫倚著鋤頭，看著藤蔓上結出的錢幣，象徵耐心等待與評估成果。",
+      "upright": {
+        "keywords": [
+          "耐心",
+          "評估",
+          "長期投資",
+          "等待收穫",
+          "堅持"
+        ],
+        "meaning": "努力已經開始累積成果，但仍需耐心等待，並評估下一步。",
+        "love": "關係需要時間培養，適合思考長期的方向。",
+        "career": "長期投資或計畫進行中，適合檢視進度與成效。",
+        "reflection": "你的努力目前帶來了哪些成果？"
+      },
+      "reversed": {
+        "keywords": [
+          "缺乏耐心",
+          "徒勞",
+          "投資失利",
+          "急躁"
+        ],
+        "meaning": "對成果感到不耐煩，或投入與回報不成比例。",
+        "love": "覺得在關係中付出卻沒有得到回應。",
+        "career": "努力看不到成效，需要重新評估方向。",
+        "reflection": "這件事值得你繼續投入嗎？"
+      }
+    },
+    {
+      "id": "pentacles-08",
+      "name": {
+        "zh": "錢幣八",
+        "en": "Eight of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 8,
+      "rank": "pip",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-08.jpg",
+      "symbolism": "工匠專注地雕刻錢幣，身旁已掛著數枚完成品，象徵專注、練習與精進技藝。",
+      "upright": {
+        "keywords": [
+          "專注",
+          "勤奮",
+          "精進",
+          "技藝",
+          "學習"
+        ],
+        "meaning": "透過持續的努力與練習精進能力，腳踏實地累積實力。",
+        "love": "用心經營關係，在細節中展現真心。",
+        "career": "專注提升專業技能，適合進修或投入工作。",
+        "reflection": "你想在哪方面精進自己？"
+      },
+      "reversed": {
+        "keywords": [
+          "缺乏動力",
+          "敷衍",
+          "完美主義",
+          "重複乏味"
+        ],
+        "meaning": "對工作感到乏味，或過度追求完美而停滯不前。",
+        "love": "對關係缺乏投入，流於例行公事。",
+        "career": "敷衍了事，或陷入重複而缺乏成長。",
+        "reflection": "你努力的方向，是否是你真正想要的？"
+      }
+    },
+    {
+      "id": "pentacles-09",
+      "name": {
+        "zh": "錢幣九",
+        "en": "Nine of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 9,
+      "rank": "pip",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-09.jpg",
+      "symbolism": "優雅的女子獨自站在豐饒的葡萄園中，手上停著一隻獵鷹，象徵獨立與自給自足。",
+      "upright": {
+        "keywords": [
+          "獨立",
+          "富足",
+          "自律",
+          "享受成果",
+          "自信"
+        ],
+        "meaning": "憑藉自己的努力達到獨立與富足，能享受辛勤付出的成果。",
+        "love": "在關係中保持獨立與自我價值，或享受單身的自在。",
+        "career": "財務獨立、工作有成，生活品質提升。",
+        "reflection": "你為自己感到驕傲的成就是什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "過度依賴",
+          "物質空虛",
+          "過度工作",
+          "缺乏安全感"
+        ],
+        "meaning": "外在的富足無法填補內心，或過度依賴他人提供安全感。",
+        "love": "在關係中失去獨立性，或用物質取代情感。",
+        "career": "為了工作犧牲生活，或財務狀況不如表面穩定。",
+        "reflection": "除了物質之外，你還需要什麼？"
+      }
+    },
+    {
+      "id": "pentacles-10",
+      "name": {
+        "zh": "錢幣十",
+        "en": "Ten of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 10,
+      "rank": "pip",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-10.jpg",
+      "symbolism": "長者與家人、狗聚在拱門下，四周環繞十枚錢幣，象徵家族傳承與長久的富足。",
+      "upright": {
+        "keywords": [
+          "傳承",
+          "家庭",
+          "長久穩定",
+          "財富",
+          "根基"
+        ],
+        "meaning": "長期的穩定與富足，重視家庭、傳承與長遠的基礎。",
+        "love": "穩定長久的關係，可能涉及家庭或婚姻規劃。",
+        "career": "穩定的事業基礎，或與家族事業、長期投資有關。",
+        "reflection": "你希望為未來留下什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "家庭紛爭",
+          "財務損失",
+          "傳統束縛",
+          "不穩定"
+        ],
+        "meaning": "家庭或財務出現問題，或受到傳統期待的束縛。",
+        "love": "家庭因素影響關係，或雙方對長期承諾有分歧。",
+        "career": "財務損失，或事業基礎受到動搖。",
+        "reflection": "家庭的期待與你自己的想法有衝突嗎？"
+      }
+    },
+    {
+      "id": "pentacles-page",
+      "name": {
+        "zh": "錢幣侍者",
+        "en": "Page of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 11,
+      "rank": "court",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-page.jpg",
+      "symbolism": "年輕人站在田野中，專注地凝視手上的錢幣，象徵學習、務實與新的目標。",
+      "upright": {
+        "keywords": [
+          "學習",
+          "務實",
+          "新目標",
+          "專注",
+          "潛力"
+        ],
+        "meaning": "以認真務實的態度學習新事物，為未來打下基礎。",
+        "love": "踏實的開始，關係慢慢培養。",
+        "career": "適合學習新技能、開始新計畫或進修。",
+        "reflection": "你想為未來學習什麼？"
+      },
+      "reversed": {
+        "keywords": [
+          "缺乏進展",
+          "拖延",
+          "不切實際",
+          "分心"
+        ],
+        "meaning": "學習或計畫缺乏進展，或目標不夠實際。",
+        "love": "關係進展緩慢，缺乏實際行動。",
+        "career": "拖延或缺乏專注，計畫難以落實。",
+        "reflection": "什麼讓你遲遲沒有開始？"
+      }
+    },
+    {
+      "id": "pentacles-knight",
+      "name": {
+        "zh": "錢幣騎士",
+        "en": "Knight of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 12,
+      "rank": "court",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-knight.jpg",
+      "symbolism": "騎士騎著靜止的黑馬，手持錢幣凝視前方的田地，象徵穩健、責任與耐心。",
+      "upright": {
+        "keywords": [
+          "穩健",
+          "負責",
+          "耐心",
+          "勤勉",
+          "可靠"
+        ],
+        "meaning": "以穩定踏實的步伐前進，雖然緩慢但值得信賴。",
+        "love": "可靠穩定的伴侶，關係慢慢累積信任。",
+        "career": "按部就班完成任務，表現穩定可靠。",
+        "reflection": "你願意用什麼樣的節奏，穩定地朝目標前進？"
+      },
+      "reversed": {
+        "keywords": [
+          "停滯",
+          "固執",
+          "懶散",
+          "過度保守"
+        ],
+        "meaning": "過於謹慎而停滯不前，或流於固執與懶散。",
+        "love": "關係缺乏變化與熱情。",
+        "career": "進度停滯，或因過於保守而錯失機會。",
+        "reflection": "是否該在穩定中加入一些改變？"
+      }
+    },
+    {
+      "id": "pentacles-queen",
+      "name": {
+        "zh": "錢幣皇后",
+        "en": "Queen of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 13,
+      "rank": "court",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-queen.jpg",
+      "symbolism": "坐在花草環繞王座上的女王，溫柔地捧著錢幣，象徵務實的照顧與豐饒。",
+      "upright": {
+        "keywords": [
+          "務實",
+          "照顧",
+          "富足",
+          "居家",
+          "可靠"
+        ],
+        "meaning": "以務實而溫暖的方式照顧自己與他人，生活豐足穩定。",
+        "love": "溫暖體貼、能提供安全感的關係。",
+        "career": "兼顧工作與生活，善於管理資源。",
+        "reflection": "你如何在生活中照顧自己與身邊的人？"
+      },
+      "reversed": {
+        "keywords": [
+          "失衡",
+          "過度操心",
+          "忽略自己",
+          "物質主義"
+        ],
+        "meaning": "過度照顧他人或工作而忽略自己，生活失去平衡。",
+        "love": "過度付出或控制，讓關係失去平衡。",
+        "career": "工作與生活難以兼顧，或過度在意物質。",
+        "reflection": "你最近是否忽略了自己的需要？"
+      }
+    },
+    {
+      "id": "pentacles-king",
+      "name": {
+        "zh": "錢幣國王",
+        "en": "King of Pentacles"
+      },
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 14,
+      "rank": "court",
+      "element": "土",
+      "astrology": null,
+      "image": "cards/pentacles-king.jpg",
+      "symbolism": "坐在飾有公牛與葡萄藤王座上的國王，象徵財富、成就與穩定的領導。",
+      "upright": {
+        "keywords": [
+          "成功",
+          "富足",
+          "穩定",
+          "領導",
+          "務實"
+        ],
+        "meaning": "憑藉務實的能力與經驗獲得成功，能提供穩定與保障。",
+        "love": "穩重可靠、能給予安全感的伴侶。",
+        "career": "事業有成、財務穩健，適合擔任領導角色。",
+        "reflection": "你如何運用自己的資源創造長久的價值？"
+      },
+      "reversed": {
+        "keywords": [
+          "貪婪",
+          "固執",
+          "物質至上",
+          "決策失誤"
+        ],
+        "meaning": "過度重視物質與成就，或變得固執而難以變通。",
+        "love": "以物質衡量關係，或在感情中過於強勢。",
+        "career": "財務決策失誤，或因固執而錯失機會。",
+        "reflection": "成功對你來說，除了金錢還代表什麼？"
+      }
+    }
+  ]
+}

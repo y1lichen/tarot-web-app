@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "language": "zh-TW"
+  },
+  "spreads": [
+    {
+      "id": "past-present-future",
+      "name": {
+        "zh": "時間之流",
+        "en": "Past · Present · Future"
+      },
+      "description": "從時間軸看問題的來龍去脈，適合想了解事情如何發展的提問。",
+      "positions": [
+        {
+          "index": 0,
+          "key": "past",
+          "name": "過去",
+          "description": "影響目前狀況的過去經驗、成因或背景。",
+          "llm_hint": "說明這張牌如何描述問題的背景與成因，避免描述成正在發生的事。"
+        },
+        {
+          "index": 1,
+          "key": "present",
+          "name": "現在",
+          "description": "目前的狀況、心境或正在面對的課題。",
+          "llm_hint": "連結使用者的提問，說明這張牌反映的當下處境。"
+        },
+        {
+          "index": 2,
+          "key": "future",
+          "name": "未來趨勢",
+          "description": "若維持目前的方向，事情可能的發展。",
+          "llm_hint": "以「可能的趨勢」描述，而非確定的預言；可提示使用者能如何影響結果。"
+        }
+      ]
+    },
+    {
+      "id": "situation-obstacle-advice",
+      "name": {
+        "zh": "現況・阻礙・建議",
+        "en": "Situation · Obstacle · Advice"
+      },
+      "description": "聚焦在眼前的困擾與可行的行動，適合「我該怎麼做」類型的提問。",
+      "positions": [
+        {
+          "index": 0,
+          "key": "situation",
+          "name": "現況",
+          "description": "問題目前的整體狀態。",
+          "llm_hint": "描述使用者目前的處境與心境。"
+        },
+        {
+          "index": 1,
+          "key": "obstacle",
+          "name": "阻礙",
+          "description": "造成困擾或阻礙進展的因素，可能來自外在或內心。",
+          "llm_hint": "即使是正面牌，也解讀為「需要留意的地方」，例如過度樂觀或過度依賴。"
+        },
+        {
+          "index": 2,
+          "key": "advice",
+          "name": "建議",
+          "description": "可以嘗試的態度或行動方向。",
+          "llm_hint": "給出具體、溫和、可執行的建議，並搭配牌卡的 reflection 反思問題。"
+        }
+      ]
+    }
+  ]
+}

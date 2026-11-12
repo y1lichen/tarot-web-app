@@ -36,8 +36,25 @@ def test_list_cards_returns_78_unique():
 def test_get_card():
     r = client.get("/cards/major-00")
     assert r.status_code == 200
-    assert r.json()["name_zh"] == "愚者"
-    assert r.json()["upright"]
+    data = r.json()
+    assert data["name_zh"] == "愚者"
+    for side in ("upright", "reversed"):
+        assert data[side]["keywords"]
+        for field in ("meaning", "love", "career", "reflection"):
+            assert data[side][field]
+    assert data["symbolism"]
+
+
+def test_card_ids_and_images():
+    ids = {c["id"] for c in client.get("/cards").json()}
+    assert {"wands-ace", "cups-page", "swords-knight", "pentacles-king", "major-21"} <= ids
+    assert all(c["image"] is None for c in client.get("/cards").json())
+    assert client.get("/cards/wands-01").status_code == 404
+
+
+def test_reading_position_labels():
+    labels = [c["position_label"] for c in client.post("/readings", json=body()).json()["cards"]]
+    assert labels == ["過去", "現在", "未來趨勢"]
 
 
 def test_get_card_not_found():
@@ -130,3 +147,6 @@ def test_generate_reading_parses_claude_tool_use(monkeypatch):
     assert text.interpretations == ["a", "b", "c"] and text.mock is False
     assert captured["tool_choice"] == {"type": "tool", "name": "submit_reading"}
     assert "聖杯二（Two of Cups）逆位" in captured["messages"][0]["content"]
+    prompt = captured["messages"][0]["content"]
+    assert get_card("cups-02").reversed.meaning in prompt  # 逆位用逆位牌義
+    assert "而非確定的預言" in prompt  # 未來位置的 llm_hint

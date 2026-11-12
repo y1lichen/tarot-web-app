@@ -4,7 +4,8 @@ from dataclasses import dataclass
 from typing import List
 
 from . import config
-from .schemas import POSITION_LABELS, Card, DrawnCard
+from .cards import load_positions
+from .schemas import Card, DrawnCard
 
 
 class LLMError(Exception):
@@ -52,39 +53,48 @@ READING_TOOL = {
 }
 
 
-def _card_line(index: int, drawn: DrawnCard, card: Card) -> str:
+def _card_block(index: int, drawn: DrawnCard, card: Card) -> str:
+    pos = load_positions()[drawn.position]
+    side = card.reversed if drawn.reversed else card.upright
     orientation = "逆位" if drawn.reversed else "正位"
-    keywords = card.reversed if drawn.reversed else card.upright
-    return (
-        f"{index}. 位置：{POSITION_LABELS[drawn.position]}；"
-        f"牌：{card.name_zh}（{card.name_en}）{orientation}；"
-        f"牌義關鍵字：{'、'.join(keywords)}"
-    )
+    return "\n".join([
+        f"{index}. 位置：{pos.name}（{pos.description}）",
+        f"   解讀方式：{pos.llm_hint}",
+        f"   牌：{card.name_zh}（{card.name_en}）{orientation}",
+        f"   牌面象徵：{card.symbolism}",
+        f"   關鍵字：{'、'.join(side.keywords)}",
+        f"   基本牌義：{side.meaning}",
+        f"   感情面向：{side.love}",
+        f"   工作面向：{side.career}",
+        f"   反思問題：{side.reflection}",
+    ])
 
 
 def build_prompt(question: str, drawn: List[DrawnCard], cards: List[Card]) -> str:
-    lines = [_card_line(i + 1, d, c) for i, (d, c) in enumerate(zip(drawn, cards))]
+    blocks = [_card_block(i + 1, d, c) for i, (d, c) in enumerate(zip(drawn, cards))]
     return (
         f"使用者的問題：{question}\n\n"
-        "牌陣（三張牌：過去、現在、未來趨勢）：\n"
-        + "\n".join(lines)
-        + "\n\n請用 submit_reading 工具提交解讀。"
+        "牌陣：時間之流（過去、現在、未來趨勢）\n\n"
+        + "\n\n".join(blocks)
+        + "\n\n請依各位置的解讀方式，參考牌義資料並連結使用者的問題，"
+        "用 submit_reading 工具提交解讀。感情與工作面向只在與問題相關時採用。"
     )
 
 
 def mock_reading(question: str, drawn: List[DrawnCard], cards: List[Card]) -> ReadingText:
+    positions = load_positions()
     interpretations = []
     for d, c in zip(drawn, cards):
+        side = c.reversed if d.reversed else c.upright
         orientation = "逆位" if d.reversed else "正位"
-        keywords = "、".join(c.reversed if d.reversed else c.upright)
         interpretations.append(
-            f"【暫代文字】{c.name_zh}{orientation}出現在「{POSITION_LABELS[d.position]}」，"
-            f"關鍵字是{keywords}。"
+            f"【暫代文字】{c.name_zh}{orientation}出現在「{positions[d.position].name}」：{side.meaning}"
         )
+    last = cards[-1].reversed if drawn[-1].reversed else cards[-1].upright
     return ReadingText(
         interpretations=interpretations,
         overall=f"【暫代文字】這是針對「{question}」的示範整體分析，尚未呼叫 LLM。",
-        advice="【暫代文字】設定 ANTHROPIC_API_KEY 後會改由 Claude 產生建議。",
+        advice=f"【暫代文字】{last.reflection}",
         mock=True,
     )
 

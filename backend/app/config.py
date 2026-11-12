@@ -29,6 +29,8 @@ CORS_ORIGINS = [
     if origin.strip()
 ]
 
-CARDS_PATH = Path(os.getenv("CARDS_PATH", str(BASE_DIR / "data" / "cards.json")))
+CARDS_PATH = Path(os.getenv("CARDS_PATH", str(BASE_DIR / "data" / "tarot_cards.json")))
+SPREADS_PATH = Path(os.getenv("SPREADS_PATH", str(BASE_DIR / "data" / "spreads.json")))
+SPREAD_ID = "past-present-future"
 
 QUESTION_MAX_LENGTH = 200

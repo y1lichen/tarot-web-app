@@ -2,10 +2,9 @@
 
 from fastapi import APIRouter, HTTPException
 
-from ..cards import get_card
+from ..cards import get_card, position_label
 from ..llm import LLMError, LLMTimeout, generate_reading
 from ..schemas import (
-    POSITION_LABELS,
     CardReading,
     CardSummary,
     ErrorResponse,
@@ -47,7 +46,7 @@ async def create_reading(req: ReadingRequest) -> ReadingResponse:
             CardReading(
                 card=CardSummary(**card.model_dump()),
                 position=drawn.position,
-                position_label=POSITION_LABELS[drawn.position],
+                position_label=position_label(drawn.position),
                 reversed=drawn.reversed,
                 interpretation=interp,
             )

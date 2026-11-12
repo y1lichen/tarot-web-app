@@ -3,8 +3,18 @@ import { act } from "react";
 import { createRoot } from "react-dom/client";
 import { afterEach, beforeEach, expect, it, vi } from "vitest";
 import App from "./App.jsx";
-import backendCards from "../../backend/data/cards.json";
-const summaries = backendCards.map(({ upright, reversed, ...card }) => card);
+import tarotData from "../../backend/data/tarot_cards.json";
+// 與後端 GET /cards 回傳的格式一致
+const summaries = tarotData.cards.map((c) => ({
+  id: c.id,
+  name_zh: c.name.zh,
+  name_en: c.name.en,
+  arcana: c.arcana,
+  suit: c.suit,
+  number: c.number,
+  rank: c.rank,
+  image: null,
+}));
 function apiReading(body) {
   return {
     question: body.question,

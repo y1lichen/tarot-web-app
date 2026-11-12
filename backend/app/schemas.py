@@ -20,19 +20,18 @@ class Suit(str, Enum):
     pentacles = "pentacles"
 
 
+class Rank(str, Enum):
+    ace = "ace"
+    pip = "pip"
+    court = "court"
+
+
 class Position(str, Enum):
-    """牌陣位置。名稱尚未定案，目前採「過去、現在、未來」。"""
+    """牌陣位置，對應 data/spreads.json 的「時間之流」（past-present-future）。"""
 
     past = "past"
     present = "present"
     future = "future"
-
-
-POSITION_LABELS = {
-    Position.past: "過去",
-    Position.present: "現在",
-    Position.future: "未來趨勢",
-}
 
 
 class CardSummary(BaseModel):
@@ -42,12 +41,24 @@ class CardSummary(BaseModel):
     arcana: Arcana
     suit: Optional[Suit] = None
     number: int
-    image: Optional[str] = None
+    rank: Optional[Rank] = Field(default=None, description="小阿爾克那：ace、pip（2～10）、court（宮廷牌）；大阿爾克那為 null")
+    image: Optional[str] = Field(default=None, description="牌面圖片路徑；圖片尚未決定，目前一律為 null")
+
+
+class CardMeaning(BaseModel):
+    keywords: List[str]
+    meaning: str = Field(description="基本牌義")
+    love: str = Field(description="感情面向")
+    career: str = Field(description="工作面向")
+    reflection: str = Field(description="反思問題")
 
 
 class Card(CardSummary):
-    upright: List[str] = Field(description="正位牌義關鍵字")
-    reversed: List[str] = Field(description="逆位牌義關鍵字")
+    element: Optional[str] = None
+    astrology: Optional[str] = None
+    symbolism: str = Field(description="牌面象徵")
+    upright: CardMeaning
+    reversed: CardMeaning
 
 
 class DrawnCard(BaseModel):
