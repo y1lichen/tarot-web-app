@@ -1,27 +1,20 @@
 # AURUM · 金夜塔羅前端
 
-React + Vite，需 Node.js 22.12 以上。
+React + Vite，透過 Docker 建置並由 Nginx 提供網頁。
 
-## 本機啟動
+## Docker 啟動
 
-先啟動後端（在專案根目錄）：
-
-```bash
-python3 -m venv backend/.venv
-backend/.venv/bin/pip install -r backend/requirements-dev.txt
-cd backend
-.venv/bin/uvicorn app.main:app --reload
-```
-
-另開終端啟動前端：
+在專案根目錄執行：
 
 ```bash
-cd frontend
-npm install
-npm run dev
+docker compose up --build -d
 ```
 
-開啟 http://localhost:5173。Vite 會將 `/api/*` 代理至 `http://127.0.0.1:8000/*`，不需另設 CORS。後端未設定 `ANTHROPIC_API_KEY` 時仍可使用，頁面會標示為後端示範解讀；若要使用 AI，請只在 `backend/.env` 設定金鑰。
+開啟 http://localhost:8080。Nginx 會將 `/api/*` 代理至後端。停止服務使用 `docker compose down`。
+
+後端未設定 `ANTHROPIC_API_KEY` 時仍可使用，頁面會標示為後端示範解讀；若要使用 AI，請只在 `backend/.env` 設定金鑰。
+
+下載來源、連接埠與建置疑難排解請見[專案說明](../README.md)。
 
 ## API 與設定
 
@@ -30,12 +23,7 @@ npm run dev
 - 提問最多 200 字。不填問題時會明確送出一般性指引請求，無法針對未提供的問題解讀。
 - API 失敗時可重試；重試保留原本的問題和牌陣。重新開始會中止未完成的請求。
 
-可複製 `.env.example` 為 `.env` 調整：
-
-- `API_PROXY_TARGET`：Vite 開發與 preview 的後端位址，例如 `http://127.0.0.1:8001`。
-- `VITE_API_BASE_URL`：瀏覽器呼叫 API 的位址，預設 `/api`，此變數在建置時寫入產物。
-
-正式部署須由網站伺服器將 `/api/*` 反向代理到後端並移除 `/api` 前綴，或在建置前把 `VITE_API_BASE_URL` 設為後端公開網址；後者需在後端的 `CORS_ORIGINS` 加入前端網址。Vite 的 proxy 不會被打包到靜態產物中。
+Docker 映像將 API 路徑設為 `/api`，由 Nginx 代理至 Compose 內的後端。根目錄 `.env` 可設定 `PORT` 與 `NPM_REGISTRY`，後端設定則放在 `backend/.env`。前端的 `.env` 不會打包進 Docker 映像。
 
 後端尚無登入與歷史紀錄 API，因此登入仍為本機示範帳號。新紀錄在解讀成功後保存牌卡與完整後端回應至 localStorage，重讀不會重新呼叫 AI；保留舊版示範紀錄相容性。
 
@@ -52,5 +40,4 @@ npm run dev
 ```bash
 npm test        # React 與 API 流程測試
 npm run build   # 產生 dist/
-npm run preview # 預覽正式建置，提供本機 API proxy
 ```
